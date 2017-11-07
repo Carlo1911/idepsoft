@@ -25,8 +25,11 @@ SECRET_KEY = '@os+0l_xlhny%56j+$nh-k81gwcdw++(bkfqqi!f=61=bxfsn+'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*']
-
+# Configuración adicional
+ALLOWED_HOSTS = ['*', 'localhost']
+AUTH_USER_MODEL = 'usuarios.User'
+LOGIN_URL = 'usuarios:usuario_login'
+LOGOUT_REDIRECT_URL = '/'
 
 # Application definition
 
@@ -38,6 +41,13 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'proyecto.usuarios',
+    'proyecto.dashboard',
+    'proyecto.core',
+]
+
+# Authentication backends
+AUTHENTICATION_BACKENDS = [
+    'django.contrib.auth.backends.ModelBackend',
 ]
 
 MIDDLEWARE = [
@@ -76,7 +86,7 @@ WSGI_APPLICATION = 'config.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': os.environ.get('DB_NAME'),
         'USER': os.environ.get('DB_USER'),
         'PASSWORD': os.environ.get('DB_PASSWORD'),
