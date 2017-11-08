@@ -18,4 +18,13 @@ from django.contrib import admin
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
+    url(r'^', include('proyecto.dashboard.urls')),
+    url(r'^usuarios/', include('proyecto.usuarios.urls', namespace="usuarios")),
+
 ]
+
+handler404 = 'proyecto.core.views.handler404'
+handler500 = 'proyecto.core.views.handler500'
+# handler403 = 'proyecto.core.my_custom_permission_denied_view'
+# handler400 = 'proyecto.core.my_custom_bad_request_view'
+

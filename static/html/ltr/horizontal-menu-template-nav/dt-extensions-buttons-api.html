@@ -1,0 +1,3596 @@
+<!DOCTYPE html>
+<html lang="en" data-textdirection="ltr" class="loading">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
+    <meta name="description" content="Stack admin is super flexible, powerful, clean &amp; modern responsive bootstrap 4 admin template with unlimited possibilities.">
+    <meta name="keywords" content="admin template, stack admin template, dashboard template, flat admin template, responsive admin template, web app">
+    <meta name="author" content="PIXINVENT">
+    <title>Button API - Stack Responsive Bootstrap 4 Admin Template</title>
+    <link rel="apple-touch-icon" href="../../../app-assets/images/ico/apple-icon-120.png">
+    <link rel="shortcut icon" type="image/x-icon" href="../../../app-assets/images/ico/favicon.ico">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,500,500i%7COpen+Sans:300,300i,400,400i,600,600i,700,700i" rel="stylesheet">
+    <!-- BEGIN VENDOR CSS-->
+    <link rel="stylesheet" type="text/css" href="../../../app-assets/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="../../../app-assets/fonts/feather/style.min.css">
+    <link rel="stylesheet" type="text/css" href="../../../app-assets/fonts/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="../../../app-assets/fonts/flag-icon-css/css/flag-icon.min.css">
+    <link rel="stylesheet" type="text/css" href="../../../app-assets/vendors/css/extensions/pace.css">
+    <link rel="stylesheet" type="text/css" href="../../../app-assets/vendors/css/tables/datatable/dataTables.bootstrap4.min.css">
+    <link rel="stylesheet" type="text/css" href="../../../app-assets/vendors/css/tables/extensions/buttons.dataTables.min.css">
+    <link rel="stylesheet" type="text/css" href="../../../app-assets/vendors/css/tables/datatable/buttons.bootstrap4.min.css">
+    <!-- END VENDOR CSS-->
+    <!-- BEGIN STACK CSS-->
+    <link rel="stylesheet" type="text/css" href="../../../app-assets/css/bootstrap-extended.min.css">
+    <link rel="stylesheet" type="text/css" href="../../../app-assets/css/app.min.css">
+    <link rel="stylesheet" type="text/css" href="../../../app-assets/css/colors.min.css">
+    <!-- END STACK CSS-->
+    <!-- BEGIN Page Level CSS-->
+    <link rel="stylesheet" type="text/css" href="../../../app-assets/css/core/menu/menu-types/horizontal-menu.min.css">
+    <link rel="stylesheet" type="text/css" href="../../../app-assets/css/core/menu/menu-types/vertical-overlay-menu.min.css">
+    <link rel="stylesheet" type="text/css" href="../../../app-assets/css/core/colors/palette-gradient.min.css">
+    <!-- END Page Level CSS-->
+    <!-- BEGIN Custom CSS-->
+    <link rel="stylesheet" type="text/css" href="../../../assets/css/style.css">
+    <!-- END Custom CSS-->
+  </head>
+  <body data-open="hover" data-menu="horizontal-menu" data-col="2-columns" class="horizontal-layout horizontal-menu 2-columns   menu-expanded">
+
+    <!-- navbar-fixed-top-->
+    <nav class="header-navbar navbar navbar-with-menu navbar-static-top navbar-dark bg-gradient-x-grey-blue navbar-border navbar-brand-center">
+      <div class="navbar-wrapper">
+        <div class="navbar-header">
+          <ul class="nav navbar-nav">
+            <li class="nav-item mobile-menu hidden-md-up float-xs-left"><a href="#" class="nav-link nav-menu-main menu-toggle hidden-xs"><i class="ft-menu font-large-1"></i></a></li>
+            <li class="nav-item"><a href="index.html" class="navbar-brand"><img alt="stack admin logo" src="../../../app-assets/images/logo/stack-logo-light.png" class="brand-logo">
+                <h2 class="brand-text">Stack</h2></a></li>
+            <li class="nav-item hidden-md-up float-xs-right"><a data-toggle="collapse" data-target="#navbar-mobile" class="nav-link open-navbar-container"><i class="fa fa-ellipsis-v"></i></a></li>
+          </ul>
+        </div>
+        <div class="navbar-container content container-fluid">
+          <div id="navbar-mobile" class="collapse navbar-toggleable-sm">
+            <ul class="nav navbar-nav">
+              <li class="nav-item hidden-sm-down"><a href="#" class="nav-link nav-menu-main menu-toggle hidden-xs"><i class="ft-menu"></i></a></li>
+              <li class="dropdown nav-item mega-dropdown"><a href="#" data-toggle="dropdown" class="dropdown-toggle nav-link">Mega</a>
+                <ul class="mega-dropdown-menu dropdown-menu row">
+                  <li class="col-md-2">
+                    <h6 class="dropdown-menu-header text-uppercase mb-1"><i class="fa fa-newspaper-o"></i> News</h6>
+                    <div id="mega-menu-carousel-example">
+                      <div><img src="../../../app-assets/images/slider/slider-2.png" alt="First slide" class="rounded img-fluid mb-1"><a href="#" class="news-title mb-0">Poster Frame PSD</a>
+                        <p class="news-content"><span class="font-small-2">January 26, 2016</span></p>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="col-md-3">
+                    <h6 class="dropdown-menu-header text-uppercase"><i class="fa fa-random"></i> Drill down menu</h6>
+                    <ul class="drilldown-menu">
+                      <li class="menu-list">
+                        <ul>
+                          <li><a href="layout-2-columns.html" class="dropdown-item"><i class="ft-file"></i> Page layouts & Templates</a></li>
+                          <li><a href="#"><i class="ft-align-left"></i> Multi level menu</a>
+                            <ul>
+                              <li><a href="#" class="dropdown-item"><i class="fa fa-bookmark-o"></i>  Second level</a></li>
+                              <li><a href="#"><i class="fa fa-lemon-o"></i> Second level menu</a>
+                                <ul>
+                                  <li><a href="#" class="dropdown-item"><i class="fa fa-heart-o"></i>  Third level</a></li>
+                                  <li><a href="#" class="dropdown-item"><i class="fa fa-file-o"></i> Third level</a></li>
+                                  <li><a href="#" class="dropdown-item"><i class="fa fa-trash-o"></i> Third level</a></li>
+                                  <li><a href="#" class="dropdown-item"><i class="fa fa-clock-o"></i> Third level</a></li>
+                                </ul>
+                              </li>
+                              <li><a href="#" class="dropdown-item"><i class="fa fa-hdd-o"></i> Second level, third link</a></li>
+                              <li><a href="#" class="dropdown-item"><i class="fa fa-floppy-o"></i> Second level, fourth link</a></li>
+                            </ul>
+                          </li>
+                          <li><a href="color-palette-primary.html" class="dropdown-item"><i class="ft-camera"></i> Color pallet system</a></li>
+                          <li><a href="sk-2-columns.html" class="dropdown-item"><i class="ft-edit"></i> Page starter kit</a></li>
+                          <li><a href="changelog.html" class="dropdown-item"><i class="ft-minimize-2"></i> Change log</a></li>
+                          <li><a href="http://support.pixinvent.com/" class="dropdown-item"><i class="fa fa-life-ring"></i> Customer support center</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="col-md-3">
+                    <h6 class="dropdown-menu-header text-uppercase"><i class="fa fa-list-ul"></i> Accordion</h6>
+                    <div id="accordionWrap" role="tablist" aria-multiselectable="true">
+                      <div class="card no-border box-shadow-0 collapse-icon accordion-icon-rotate">
+                        <div id="headingOne" role="tab" class="card-header p-0 pb-2 no-border"><a data-toggle="collapse" data-parent="#accordionWrap" href="#accordionOne" aria-expanded="true" aria-controls="accordionOne">Accordion Item #1</a></div>
+                        <div id="accordionOne" role="tabpanel" aria-labelledby="headingOne" aria-expanded="true" class="card-collapse collapse in">
+                          <div class="card-body">
+                            <p class="accordion-text text-small-3">Caramels dessert chocolate cake pastry jujubes bonbon. Jelly wafer jelly beans. Caramels chocolate cake liquorice cake wafer jelly beans croissant apple pie.</p>
+                          </div>
+                        </div>
+                        <div id="headingTwo" role="tab" class="card-header p-0 pb-2 no-border"><a data-toggle="collapse" data-parent="#accordionWrap" href="#accordionTwo" aria-expanded="false" aria-controls="accordionTwo" class="collapsed">Accordion Item #2</a></div>
+                        <div id="accordionTwo" role="tabpanel" aria-labelledby="headingTwo" aria-expanded="false" class="card-collapse collapse">
+                          <div class="card-body">
+                            <p class="accordion-text">Sugar plum bear claw oat cake chocolate jelly tiramisu dessert pie. Tiramisu macaroon muffin jelly marshmallow cake. Pastry oat cake chupa chups.</p>
+                          </div>
+                        </div>
+                        <div id="headingThree" role="tab" class="card-header p-0 pb-2 no-border"><a data-toggle="collapse" data-parent="#accordionWrap" href="#accordionThree" aria-expanded="false" aria-controls="accordionThree" class="collapsed">Accordion Item #3</a></div>
+                        <div id="accordionThree" role="tabpanel" aria-labelledby="headingThree" aria-expanded="false" class="card-collapse collapse">
+                          <div class="card-body">
+                            <p class="accordion-text">Candy cupcake sugar plum oat cake wafer marzipan jujubes lollipop macaroon. Cake dragée jujubes donut chocolate bar chocolate cake cupcake chocolate topping.</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="col-md-4">
+                    <h6 class="dropdown-menu-header text-uppercase mb-1"><i class="fa fa-envelope-o"></i> Contact Us</h6>
+                    <form>
+                      <fieldset class="form-group">
+                        <label for="inputName1" class="col-sm-3 form-control-label">Name</label>
+                        <div class="col-sm-9">
+                          <div class="position-relative has-icon-left">
+                            <input type="text" id="inputName1" placeholder="John Doe" class="form-control">
+                            <div class="form-control-position"><i class="fa fa-user-o pl-1"></i></div>
+                          </div>
+                        </div>
+                      </fieldset>
+                      <fieldset class="form-group">
+                        <label for="inputEmail1" class="col-sm-3 form-control-label">Email</label>
+                        <div class="col-sm-9">
+                          <div class="position-relative has-icon-left">
+                            <input type="email" id="inputEmail1" placeholder="john@example.com" class="form-control">
+                            <div class="form-control-position pl-1"><i class="fa fa-envelope-o"></i></div>
+                          </div>
+                        </div>
+                      </fieldset>
+                      <fieldset class="form-group">
+                        <label for="inputMessage1" class="col-sm-3 form-control-label">Message</label>
+                        <div class="col-sm-9">
+                          <div class="position-relative has-icon-left">
+                            <textarea id="inputMessage1" rows="2" placeholder="Simple Textarea" class="form-control"></textarea>
+                            <div class="form-control-position pl-1"><i class="fa fa-commenting-o"></i></div>
+                          </div>
+                        </div>
+                      </fieldset>
+                      <div class="col-sm-12 mb-1">
+                        <button type="button" class="btn btn-primary float-xs-right"><i class="fa fa-paper-plane-o"></i> Send</button>
+                      </div>
+                    </form>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item hidden-sm-down"><a href="#" class="nav-link nav-link-expand"><i class="ficon ft-maximize"></i></a></li>
+              <li class="nav-item nav-search"><a href="#" class="nav-link nav-link-search"><i class="ficon ft-search"></i></a>
+                <div class="search-input">
+                  <input type="text" placeholder="Explore Stack..." class="input">
+                </div>
+              </li>
+            </ul>
+            <ul class="nav navbar-nav float-xs-right">
+              <li class="dropdown dropdown-language nav-item"><a id="dropdown-flag" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="dropdown-toggle nav-link"><i class="flag-icon flag-icon-gb"></i><span class="selected-language"></span></a>
+                <div aria-labelledby="dropdown-flag" class="dropdown-menu"><a href="#" class="dropdown-item"><i class="flag-icon flag-icon-gb"></i> English</a><a href="#" class="dropdown-item"><i class="flag-icon flag-icon-fr"></i> French</a><a href="#" class="dropdown-item"><i class="flag-icon flag-icon-cn"></i> Chinese</a><a href="#" class="dropdown-item"><i class="flag-icon flag-icon-de"></i> German</a></div>
+              </li>
+              <li class="dropdown dropdown-notification nav-item"><a href="#" data-toggle="dropdown" class="nav-link nav-link-label"><i class="ficon ft-bell"></i><span class="tag tag-pill tag-default tag-danger tag-default tag-up">5</span></a>
+                <ul class="dropdown-menu dropdown-menu-media dropdown-menu-right">
+                  <li class="dropdown-menu-header">
+                    <h6 class="dropdown-header m-0"><span class="grey darken-2">Notifications</span><span class="notification-tag tag tag-default tag-danger float-xs-right m-0">5 New</span></h6>
+                  </li>
+                  <li class="list-group scrollable-container"><a href="javascript:void(0)" class="list-group-item">
+                      <div class="media">
+                        <div class="media-left valign-middle"><i class="ft-plus-square icon-bg-circle bg-cyan"></i></div>
+                        <div class="media-body">
+                          <h6 class="media-heading">You have new order!</h6>
+                          <p class="notification-text font-small-3 text-muted">Lorem ipsum dolor sit amet, consectetuer elit.</p><small>
+                            <time datetime="2015-06-11T18:29:20+08:00" class="media-meta text-muted">30 minutes ago</time></small>
+                        </div>
+                      </div></a><a href="javascript:void(0)" class="list-group-item">
+                      <div class="media">
+                        <div class="media-left valign-middle"><i class="ft-download-cloud icon-bg-circle bg-red bg-darken-1"></i></div>
+                        <div class="media-body">
+                          <h6 class="media-heading red darken-1">99% Server load</h6>
+                          <p class="notification-text font-small-3 text-muted">Aliquam tincidunt mauris eu risus.</p><small>
+                            <time datetime="2015-06-11T18:29:20+08:00" class="media-meta text-muted">Five hour ago</time></small>
+                        </div>
+                      </div></a><a href="javascript:void(0)" class="list-group-item">
+                      <div class="media">
+                        <div class="media-left valign-middle"><i class="ft-alert-triangle icon-bg-circle bg-yellow bg-darken-3"></i></div>
+                        <div class="media-body">
+                          <h6 class="media-heading yellow darken-3">Warning notifixation</h6>
+                          <p class="notification-text font-small-3 text-muted">Vestibulum auctor dapibus neque.</p><small>
+                            <time datetime="2015-06-11T18:29:20+08:00" class="media-meta text-muted">Today</time></small>
+                        </div>
+                      </div></a><a href="javascript:void(0)" class="list-group-item">
+                      <div class="media">
+                        <div class="media-left valign-middle"><i class="ft-check-circle icon-bg-circle bg-cyan"></i></div>
+                        <div class="media-body">
+                          <h6 class="media-heading">Complete the task</h6><small>
+                            <time datetime="2015-06-11T18:29:20+08:00" class="media-meta text-muted">Last week</time></small>
+                        </div>
+                      </div></a><a href="javascript:void(0)" class="list-group-item">
+                      <div class="media">
+                        <div class="media-left valign-middle"><i class="ft-file icon-bg-circle bg-teal"></i></div>
+                        <div class="media-body">
+                          <h6 class="media-heading">Generate monthly report</h6><small>
+                            <time datetime="2015-06-11T18:29:20+08:00" class="media-meta text-muted">Last month</time></small>
+                        </div>
+                      </div></a></li>
+                  <li class="dropdown-menu-footer"><a href="javascript:void(0)" class="dropdown-item text-muted text-xs-center">Read all notifications</a></li>
+                </ul>
+              </li>
+              <li class="dropdown dropdown-notification nav-item"><a href="#" data-toggle="dropdown" class="nav-link nav-link-label"><i class="ficon ft-mail"></i><span class="tag tag-pill tag-default tag-warning tag-default tag-up">3</span></a>
+                <ul class="dropdown-menu dropdown-menu-media dropdown-menu-right">
+                  <li class="dropdown-menu-header">
+                    <h6 class="dropdown-header m-0"><span class="grey darken-2">Messages</span><span class="notification-tag tag tag-default tag-warning float-xs-right m-0">4 New</span></h6>
+                  </li>
+                  <li class="list-group scrollable-container"><a href="javascript:void(0)" class="list-group-item">
+                      <div class="media">
+                        <div class="media-left"><span class="avatar avatar-sm avatar-online rounded-circle"><img src="../../../app-assets/images/portrait/small/avatar-s-1.png" alt="avatar"><i></i></span></div>
+                        <div class="media-body">
+                          <h6 class="media-heading">Margaret Govan</h6>
+                          <p class="notification-text font-small-3 text-muted">I like your portfolio, let's start the project.</p><small>
+                            <time datetime="2015-06-11T18:29:20+08:00" class="media-meta text-muted">Today</time></small>
+                        </div>
+                      </div></a><a href="javascript:void(0)" class="list-group-item">
+                      <div class="media">
+                        <div class="media-left"><span class="avatar avatar-sm avatar-busy rounded-circle"><img src="../../../app-assets/images/portrait/small/avatar-s-2.png" alt="avatar"><i></i></span></div>
+                        <div class="media-body">
+                          <h6 class="media-heading">Bret Lezama</h6>
+                          <p class="notification-text font-small-3 text-muted">I have seen your work, there is</p><small>
+                            <time datetime="2015-06-11T18:29:20+08:00" class="media-meta text-muted">Tuesday</time></small>
+                        </div>
+                      </div></a><a href="javascript:void(0)" class="list-group-item">
+                      <div class="media">
+                        <div class="media-left"><span class="avatar avatar-sm avatar-online rounded-circle"><img src="../../../app-assets/images/portrait/small/avatar-s-3.png" alt="avatar"><i></i></span></div>
+                        <div class="media-body">
+                          <h6 class="media-heading">Carie Berra</h6>
+                          <p class="notification-text font-small-3 text-muted">Can we have call in this week ?</p><small>
+                            <time datetime="2015-06-11T18:29:20+08:00" class="media-meta text-muted">Friday</time></small>
+                        </div>
+                      </div></a><a href="javascript:void(0)" class="list-group-item">
+                      <div class="media">
+                        <div class="media-left"><span class="avatar avatar-sm avatar-away rounded-circle"><img src="../../../app-assets/images/portrait/small/avatar-s-6.png" alt="avatar"><i></i></span></div>
+                        <div class="media-body">
+                          <h6 class="media-heading">Eric Alsobrook</h6>
+                          <p class="notification-text font-small-3 text-muted">We have project party this saturday night.</p><small>
+                            <time datetime="2015-06-11T18:29:20+08:00" class="media-meta text-muted">last month</time></small>
+                        </div>
+                      </div></a></li>
+                  <li class="dropdown-menu-footer"><a href="javascript:void(0)" class="dropdown-item text-muted text-xs-center">Read all messages</a></li>
+                </ul>
+              </li>
+              <li class="dropdown dropdown-user nav-item"><a href="#" data-toggle="dropdown" class="dropdown-toggle nav-link dropdown-user-link"><span class="avatar avatar-online"><img src="../../../app-assets/images/portrait/small/avatar-s-1.png" alt="avatar"><i></i></span><span class="user-name">John Doe</span></a>
+                <div class="dropdown-menu dropdown-menu-right"><a href="#" class="dropdown-item"><i class="ft-user"></i> Edit Profile</a><a href="#" class="dropdown-item"><i class="ft-mail"></i> My Inbox</a><a href="#" class="dropdown-item"><i class="ft-check-square"></i> Task</a><a href="#" class="dropdown-item"><i class="ft-message-square"></i> Chats</a>
+                  <div class="dropdown-divider"></div><a href="#" class="dropdown-item"><i class="ft-power"></i> Logout</a>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- ////////////////////////////////////////////////////////////////////////////-->
+
+
+    <!-- Horizontal navigation-->
+    <div role="navigation" data-menu="menu-wrapper" class="header-navbar navbar navbar-horizontal navbar-fixed navbar-light navbar-without-dd-arrow navbar-shadow menu-border">
+      <!-- Horizontal menu content-->
+      <div data-menu="menu-container" class="navbar-container main-menu-content">
+        <!-- include ../../../includes/mixins-->
+        <ul id="main-menu-navigation" data-menu="menu-navigation" class="nav navbar-nav">
+          <li data-menu="dropdown" class="dropdown nav-item"><a href="index.html" data-toggle="dropdown" class="dropdown-toggle nav-link"><i class="ft-home"></i><span>Dashboard</span></a>
+            <ul class="dropdown-menu">
+              <li data-menu=""><a href="dashboard-ecommerce.html" data-toggle="dropdown" class="dropdown-item">eCommerce</a>
+              </li>
+              <li data-menu=""><a href="dashboard-analytics.html" data-toggle="dropdown" class="dropdown-item">Analytics</a>
+              </li>
+              <li data-menu=""><a href="dashboard-fitness.html" data-toggle="dropdown" class="dropdown-item">Fitness</a>
+              </li>
+            </ul>
+          </li>
+          <li data-menu="dropdown" class="dropdown nav-item"><a href="#" data-toggle="dropdown" class="dropdown-toggle nav-link"><i class="ft-monitor"></i><span>Templates</span></a>
+            <ul class="dropdown-menu">
+              <li data-menu="dropdown-submenu" class="dropdown dropdown-submenu"><a href="#" data-toggle="dropdown" class="dropdown-item dropdown-toggle">Vertical</a>
+                <ul class="dropdown-menu">
+                  <li data-menu=""><a href="../vertical-modern-menu-template" data-toggle="dropdown" class="dropdown-item">Modern Menu</a>
+                  </li>
+                  <li data-menu=""><a href="../vertical-menu-template" data-toggle="dropdown" class="dropdown-item">Semi Light</a>
+                  </li>
+                  <li data-menu=""><a href="../vertical-menu-template-semi-dark" data-toggle="dropdown" class="dropdown-item">Semi Dark</a>
+                  </li>
+                  <li data-menu=""><a href="../vertical-menu-template-nav-dark" data-toggle="dropdown" class="dropdown-item">Nav Dark</a>
+                  </li>
+                  <li data-menu=""><a href="../vertical-menu-template-light" data-toggle="dropdown" class="dropdown-item">Light</a>
+                  </li>
+                  <li data-menu=""><a href="../vertical-overlay-menu-template" data-toggle="dropdown" class="dropdown-item">Overlay Menu</a>
+                  </li>
+                </ul>
+              </li>
+              <li data-menu="dropdown-submenu" class="dropdown dropdown-submenu"><a href="#" data-toggle="dropdown" class="dropdown-item dropdown-toggle">Horizontal</a>
+                <ul class="dropdown-menu">
+                  <li data-menu=""><a href="../horizontal-menu-template" data-toggle="dropdown" class="dropdown-item">Classic</a>
+                  </li>
+                  <li data-menu=""><a href="../horizontal-menu-template-nav" data-toggle="dropdown" class="dropdown-item">Nav Dark</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li data-menu="dropdown" class="dropdown nav-item"><a href="#" data-toggle="dropdown" class="dropdown-toggle nav-link"><i class="ft-layout"></i><span>Layouts</span></a>
+            <ul class="dropdown-menu">
+              <li data-menu="dropdown-submenu" class="dropdown dropdown-submenu"><a href="#" data-toggle="dropdown" class="dropdown-item dropdown-toggle">Page Layouts<i class="icon-stack-2"></i></a>
+                <ul class="dropdown-menu">
+                  <li data-menu=""><a href="horizontal-layout-1-column.html" data-toggle="dropdown" class="dropdown-item">1 column</a>
+                  </li>
+                  <li data-menu="dropdown-submenu" class="dropdown dropdown-submenu"><a href="#" data-toggle="dropdown" class="dropdown-item dropdown-toggle">Content Det. Sidebar</a>
+                    <ul class="dropdown-menu">
+                      <li data-menu=""><a href="layout-content-detached-left-sidebar.html" data-toggle="dropdown" class="dropdown-item">Detached left sidebar</a>
+                      </li>
+                      <li data-menu=""><a href="layout-content-detached-left-sticky-sidebar.html" data-toggle="dropdown" class="dropdown-item">Detached sticky left sidebar</a>
+                      </li>
+                      <li data-menu=""><a href="layout-content-detached-right-sidebar.html" data-toggle="dropdown" class="dropdown-item">Detached right sidebar</a>
+                      </li>
+                      <li data-menu=""><a href="layout-content-detached-right-sticky-sidebar.html" data-toggle="dropdown" class="dropdown-item">Detached sticky right sidebar</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="dropdown-divider"></li>
+                  <li data-menu=""><a href="layout-fixed-navigation.html" data-toggle="dropdown" class="dropdown-item">Fixed navigation</a>
+                  </li>
+                  <li class="dropdown-divider"></li>
+                  <li data-menu=""><a href="layout-fixed.html" data-toggle="dropdown" class="dropdown-item">Fixed layout</a>
+                  </li>
+                  <li data-menu=""><a href="layout-boxed.html" data-toggle="dropdown" class="dropdown-item">Boxed layout</a>
+                  </li>
+                  <li data-menu=""><a href="layout-static.html" data-toggle="dropdown" class="dropdown-item">Static layout</a>
+                  </li>
+                  <li class="dropdown-divider"></li>
+                  <li data-menu=""><a href="layout-light.html" data-toggle="dropdown" class="dropdown-item">Light layout</a>
+                  </li>
+                  <li data-menu=""><a href="layout-dark.html" data-toggle="dropdown" class="dropdown-item">Dark layout</a>
+                  </li>
+                  <li data-menu=""><a href="layout-semi-dark.html" data-toggle="dropdown" class="dropdown-item">Semi dark layout</a>
+                  </li>
+                </ul>
+              </li>
+              <li data-menu="dropdown-submenu" class="dropdown dropdown-submenu"><a href="#" data-toggle="dropdown" class="dropdown-item dropdown-toggle">Navbars<i class="icon-navicon2"></i></a>
+                <ul class="dropdown-menu">
+                  <li data-menu=""><a href="navbar-light.html" data-toggle="dropdown" class="dropdown-item">Navbar Light</a>
+                  </li>
+                  <li data-menu=""><a href="navbar-dark.html" data-toggle="dropdown" class="dropdown-item">Navbar Dark</a>
+                  </li>
+                  <li data-menu=""><a href="navbar-semi-dark.html" data-toggle="dropdown" class="dropdown-item">Navbar Semi Dark</a>
+                  </li>
+                  <li data-menu=""><a href="navbar-brand-center.html" data-toggle="dropdown" class="dropdown-item">Brand Center</a>
+                  </li>
+                  <li data-menu=""><a href="navbar-fixed-top.html" data-toggle="dropdown" class="dropdown-item">Fixed Top</a>
+                  </li>
+                  <li data-menu="dropdown-submenu" class="dropdown dropdown-submenu"><a href="#" data-toggle="dropdown" class="dropdown-item dropdown-toggle">Hide on Scroll</a>
+                    <ul class="dropdown-menu">
+                      <li data-menu=""><a href="navbar-hide-on-scroll-top.html" data-toggle="dropdown" class="dropdown-item">Hide on Scroll Top</a>
+                      </li>
+                      <li data-menu=""><a href="navbar-hide-on-scroll-bottom.html" data-toggle="dropdown" class="dropdown-item">Hide on Scroll Bottom</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li data-menu=""><a href="navbar-components.html" data-toggle="dropdown" class="dropdown-item">Navbar Components</a>
+                  </li>
+                  <li data-menu=""><a href="navbar-styling.html" data-toggle="dropdown" class="dropdown-item">Navbar Styling</a>
+                  </li>
+                </ul>
+              </li>
+              <li data-menu="dropdown-submenu" class="dropdown dropdown-submenu"><a href="#" data-toggle="dropdown" class="dropdown-item dropdown-toggle">Vertical Nav</a>
+                <ul class="dropdown-menu">
+                  <li data-menu="dropdown-submenu" class="dropdown dropdown-submenu"><a href="#" data-toggle="dropdown" class="dropdown-item dropdown-toggle">Navigation Types</a>
+                    <ul class="dropdown-menu">
+                      <li data-menu=""><a href="../vertical-menu-template" data-toggle="dropdown" class="dropdown-item">Semi Light</a>
+                      </li>
+                      <li data-menu=""><a href="../vertical-menu-template-semi-dark" data-toggle="dropdown" class="dropdown-item">Semi Dark</a>
+                      </li>
+                      <li data-menu=""><a href="../vertical-menu-template-nav-dark" data-toggle="dropdown" class="dropdown-item">Nav Dark</a>
+                      </li>
+                      <li data-menu=""><a href="../vertical-menu-template-light" data-toggle="dropdown" class="dropdown-item">Light</a>
+                      </li>
+                      <li data-menu=""><a href="../vertical-overlay-menu-template" data-toggle="dropdown" class="dropdown-item">Overlay Menu</a>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li data-menu="dropdown-submenu" class="dropdown dropdown-submenu"><a href="#" data-toggle="dropdown" class="dropdown-item dropdown-toggle">Horizontal Nav</a>
+                <ul class="dropdown-menu">
+                  <li data-menu=""><a href="../horizontal-menu-template" data-toggle="dropdown" class="dropdown-item">Left Icon Navigation</a>
+                  </li>
+                  <li data-menu=""><a href="horizontal-nav-fixed.html" data-toggle="dropdown" class="dropdown-item">Fixed Navigation</a>
+                  </li>
+                  <li data-menu=""><a href="horizontal-nav-flipped.html" data-toggle="dropdown" class="dropdown-item">Flipped Navigation</a>
+                  </li>
+                  <li data-menu=""><a href="horizontal-nav-submenu-click.html" data-toggle="dropdown" class="dropdown-item">Submenu on Click</a>
+                  </li>
+                  <li data-menu=""><a href="horizontal-nav-submenu-hover.html" data-toggle="dropdown" class="dropdown-item">Submenu on Hover</a>
+                  </li>
+                  <li data-menu=""><a href="horizontal-nav-light.html" data-toggle="dropdown" class="dropdown-item">Light Navigation</a>
+                  </li>
+                  <li data-menu=""><a href="horizontal-nav-dark.html" data-toggle="dropdown" class="dropdown-item">Dark Navigation</a>
+                  </li>
+                  <li data-menu=""><a href="horizontal-nav-right-side-icons.html" data-toggle="dropdown" class="dropdown-item">Right side icons</a>
+                  </li>
+                  <li data-menu=""><a href="horizontal-nav-no-dropdown.html" data-toggle="dropdown" class="dropdown-item">No Dropdown Arrow</a>
+                  </li>
+                  <li data-menu=""><a href="horizontal-nav-disabled.html" data-toggle="dropdown" class="dropdown-item">Disabled Navigation</a>
+                  </li>
+                  <li data-menu=""><a href="horizontal-nav-tags-pills.html" data-toggle="dropdown" class="dropdown-item">Tags &amp; Pills</a>
+                  </li>
+                  <li data-menu=""><a href="horizontal-nav-styling.html" data-toggle="dropdown" class="dropdown-item">Navigation Styling</a>
+                  </li>
+                </ul>
+              </li>
+              <li data-menu="dropdown-submenu" class="dropdown dropdown-submenu"><a href="#" data-toggle="dropdown" class="dropdown-item dropdown-toggle">Page Headers<i class="icon-header"></i></a>
+                <ul class="dropdown-menu">
+                  <li data-menu=""><a href="headers-breadcrumbs-basic.html" data-toggle="dropdown" class="dropdown-item">Breadcrumbs basic</a>
+                  </li>
+                  <li data-menu=""><a href="headers-breadcrumbs-top.html" data-toggle="dropdown" class="dropdown-item">Breadcrumbs top</a>
+                  </li>
+                  <li data-menu=""><a href="headers-breadcrumbs-bottom.html" data-toggle="dropdown" class="dropdown-item">Breadcrumbs bottom</a>
+                  </li>
+                  <li data-menu=""><a href="headers-breadcrumbs-with-button.html" data-toggle="dropdown" class="dropdown-item">Breadcrumbs with button</a>
+                  </li>
+                  <li data-menu=""><a href="headers-breadcrumbs-with-round-button.html" data-toggle="dropdown" class="dropdown-item">Breadcrumbs with round button 2</a>
+                  </li>
+                  <li data-menu=""><a href="headers-breadcrumbs-with-stats.html" data-toggle="dropdown" class="dropdown-item">Breadcrumbs with stats</a>
+                  </li>
+                </ul>
+              </li>
+              <li data-menu="dropdown-submenu" class="dropdown dropdown-submenu"><a href="#" data-toggle="dropdown" class="dropdown-item dropdown-toggle">Footers<i class="icon-vertical_align_bottom"></i></a>
+                <ul class="dropdown-menu">
+                  <li data-menu=""><a href="footer-light.html" data-toggle="dropdown" class="dropdown-item">Footer Light</a>
+                  </li>
+                  <li data-menu=""><a href="footer-dark.html" data-toggle="dropdown" class="dropdown-item">Footer Dark</a>
+                  </li>
+                  <li data-menu=""><a href="footer-transparent.html" data-toggle="dropdown" class="dropdown-item">Footer Transparent</a>
+                  </li>
+                  <li data-menu=""><a href="footer-fixed.html" data-toggle="dropdown" class="dropdown-item">Footer Fixed</a>
+                  </li>
+                  <li data-menu=""><a href="footer-components.html" data-toggle="dropdown" class="dropdown-item">Footer Components</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li data-menu="dropdown" class="dropdown nav-item"><a href="#" data-toggle="dropdown" class="dropdown-toggle nav-link"><i class="ft-zap"></i><span>Starter kit</span></a>
+            <ul class="dropdown-menu">
+              <li data-menu=""><a href="../../../starter-kit/ltr/horizontal-menu-template-nav/layout-1-column.html" data-toggle="dropdown" class="dropdown-item">1 column</a>
+              </li>
+              <li data-menu="dropdown-submenu" class="dropdown dropdown-submenu"><a href="#" data-toggle="dropdown" class="dropdown-item dropdown-toggle">Content Det. Sidebar</a>
+                <ul class="dropdown-menu">
+                  <li data-menu=""><a href="../../../starter-kit/ltr/horizontal-menu-template-nav/layout-content-detached-left-sidebar.html" data-toggle="dropdown" class="dropdown-item">Detached left sidebar</a>
+                  </li>
+                  <li data-menu=""><a href="../../../starter-kit/ltr/horizontal-menu-template-nav/layout-content-detached-left-sticky-sidebar.html" data-toggle="dropdown" class="dropdown-item">Detached sticky left sidebar</a>
+                  </li>
+                  <li data-menu=""><a href="../../../starter-kit/ltr/horizontal-menu-template-nav/layout-content-detached-right-sidebar.html" data-toggle="dropdown" class="dropdown-item">Detached right sidebar</a>
+                  </li>
+                  <li data-menu=""><a href="../../../starter-kit/ltr/horizontal-menu-template-nav/layout-content-detached-right-sticky-sidebar.html" data-toggle="dropdown" class="dropdown-item">Detached sticky right sidebar</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="dropdown-divider"></li>
+              <li data-menu=""><a href="../../../starter-kit/ltr/horizontal-menu-template-nav/layout-fixed-navigation.html" data-toggle="dropdown" class="dropdown-item">Fixed navigation</a>
+              </li>
+              <li class="dropdown-divider"></li>
+              <li data-menu=""><a href="../../../starter-kit/ltr/horizontal-menu-template-nav/layout-fixed.html" data-toggle="dropdown" class="dropdown-item">Fixed layout</a>
+              </li>
+              <li data-menu=""><a href="../../../starter-kit/ltr/horizontal-menu-template-nav/layout-boxed.html" data-toggle="dropdown" class="dropdown-item">Boxed layout</a>
+              </li>
+              <li data-menu=""><a href="../../../starter-kit/ltr/horizontal-menu-template-nav/layout-static.html" data-toggle="dropdown" class="dropdown-item">Static layout</a>
+              </li>
+              <li class="dropdown-divider"></li>
+              <li data-menu=""><a href="../../../starter-kit/ltr/horizontal-menu-template-nav/layout-light.html" data-toggle="dropdown" class="dropdown-item">Light layout</a>
+              </li>
+              <li data-menu=""><a href="../../../starter-kit/ltr/horizontal-menu-template-nav/layout-dark.html" data-toggle="dropdown" class="dropdown-item">Dark layout</a>
+              </li>
+              <li data-menu=""><a href="../../../starter-kit/ltr/horizontal-menu-template-nav/layout-semi-dark.html" data-toggle="dropdown" class="dropdown-item">Semi dark layout</a>
+              </li>
+            </ul>
+          </li>
+          <li data-menu="megamenu" class="dropdown mega-dropdown nav-item"><a href="#" data-toggle="dropdown" class="dropdown-toggle nav-link"><i class="ft-box"></i><span>Apps</span></a>
+            <ul class="mega-dropdown-menu dropdown-menu row">
+              <li data-mega-col="col-md-3" class="col-md-3">
+                <ul class="drilldown-menu">
+                  <li class="menu-list">
+                    <ul class="mega-menu-sub">
+                      <li><a href="email-application.html" class="dropdown-item"><i class="ft-mail"></i>Email Application</a>
+                      </li>
+                      <li><a href="chat-application.html" class="dropdown-item"><i class="ft-message-square"></i>Chat Application</a>
+                      </li>
+                      <li><a href="project-summary.html" class="dropdown-item"><i class="ft-airplay"></i>Project Summary</a>
+                      </li>
+                      <li><a href="invoice-template.html" class="dropdown-item"><i class="ft-printer"></i>Invoice Template</a>
+                      </li>
+                      <li><a href="#" class="dropdown-item"><i class="ft-share"></i>Timelines</a>
+                        <ul class="mega-menu-sub">
+                          <li><a href="timeline-center.html" class="dropdown-item"><i class="undefined"></i>Timelines Center</a>
+                          </li>
+                          <li><a href="timeline-horizontal.html" class="dropdown-item"><i class="undefined"></i>Timelines Horizontal</a>
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li data-mega-col="col-md-3" class="col-md-3">
+                <ul class="drilldown-menu">
+                  <li class="menu-list">
+                    <ul class="mega-menu-sub">
+                      <li><a href="#" class="dropdown-item"><i class="ft-user"></i>Users</a>
+                        <ul class="mega-menu-sub">
+                          <li><a href="user-profile.html" class="dropdown-item"><i class="ft-user"></i>Users Profile</a>
+                          </li>
+                          <li><a href="user-cards.html" class="dropdown-item"><i class="ft-user-plus"></i>Users Cards</a>
+                          </li>
+                        </ul>
+                      </li>
+                      <li><a href="#" class="dropdown-item"><i class="ft-plus-square"></i>Calender</a>
+                        <ul class="mega-menu-sub">
+                          <li><a href="full-calender-basic.html" class="dropdown-item"><i class="undefined"></i>Full Calender Basic</a>
+                          </li>
+                          <li><a href="full-calender-events.html" class="dropdown-item"><i class="undefined"></i>Full Calender Events</a>
+                          </li>
+                          <li><a href="full-calender-advance.html" class="dropdown-item"><i class="undefined"></i>Full Calender Advance</a>
+                          </li>
+                          <li><a href="full-calender-extra.html" class="dropdown-item"><i class="undefined"></i>Full Calender Extra</a>
+                          </li>
+                        </ul>
+                      </li>
+                      <li><a href="#" class="dropdown-item"><i class="ft-image"></i>Gallery</a>
+                        <ul class="mega-menu-sub">
+                          <li><a href="gallery-grid.html" class="dropdown-item"><i class="undefined"></i>Gallery Grid</a>
+                          </li>
+                          <li><a href="gallery-grid-with-desc.html" class="dropdown-item"><i class="undefined"></i>Gallery Grid with Desc</a>
+                          </li>
+                          <li><a href="gallery-masonry.html" class="dropdown-item"><i class="undefined"></i>Masonry Gallery</a>
+                          </li>
+                          <li><a href="gallery-masonry-with-desc.html" class="dropdown-item"><i class="undefined"></i>Masonry Gallery with Desc</a>
+                          </li>
+                          <li><a href="gallery-hover-effects.html" class="dropdown-item"><i class="undefined"></i>Hover Effects</a>
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li data-mega-col="col-md-3" class="col-md-3">
+                <ul class="drilldown-menu">
+                  <li class="menu-list">
+                    <ul class="mega-menu-sub">
+                      <li><a href="#" class="dropdown-item"><i class="ft-search"></i>Search</a>
+                        <ul class="mega-menu-sub">
+                          <li><a href="search-page.html" class="dropdown-item"><i class="undefined"></i>Search Page</a>
+                          </li>
+                          <li><a href="search-website.html" class="dropdown-item"><i class="undefined"></i>Search Website</a>
+                          </li>
+                          <li><a href="search-images.html" class="dropdown-item"><i class="undefined"></i>Search Images</a>
+                          </li>
+                          <li><a href="search-videos.html" class="dropdown-item"><i class="undefined"></i>Search Videos</a>
+                          </li>
+                        </ul>
+                      </li>
+                      <li><a href="#" class="dropdown-item"><i class="ft-unlock"></i>Authentication</a>
+                        <ul class="mega-menu-sub">
+                          <li><a href="login-simple.html" class="dropdown-item"><i class="undefined"></i>Login Simple</a>
+                          </li>
+                          <li><a href="login-with-bg.html" class="dropdown-item"><i class="undefined"></i>Login with Bg</a>
+                          </li>
+                          <li><a href="login-with-bg-image.html" class="dropdown-item"><i class="undefined"></i>Login with Bg Image</a>
+                          </li>
+                          <li><a href="register-simple.html" class="dropdown-item"><i class="undefined"></i>Register Simple</a>
+                          </li>
+                          <li><a href="register-with-bg.html" class="dropdown-item"><i class="undefined"></i>Register with Bg</a>
+                          </li>
+                          <li><a href="register-with-bg-image.html" class="dropdown-item"><i class="undefined"></i>Register with Bg Image</a>
+                          </li>
+                          <li><a href="unlock-user.html" class="dropdown-item"><i class="undefined"></i>Unlock User</a>
+                          </li>
+                          <li><a href="recover-password.html" class="dropdown-item"><i class="undefined"></i>Recover Password</a>
+                          </li>
+                        </ul>
+                      </li>
+                      <li><a href="#" class="dropdown-item"><i class="ft-alert-triangle"></i>Error</a>
+                        <ul class="mega-menu-sub">
+                          <li><a href="error-400.html" class="dropdown-item"><i class="undefined"></i>Error 400</a>
+                          </li>
+                          <li><a href="error-401.html" class="dropdown-item"><i class="undefined"></i>Error 401</a>
+                          </li>
+                          <li><a href="error-403.html" class="dropdown-item"><i class="undefined"></i>Error 403</a>
+                          </li>
+                          <li><a href="error-404.html" class="dropdown-item"><i class="undefined"></i>Error 404</a>
+                          </li>
+                          <li><a href="error-500.html" class="dropdown-item"><i class="undefined"></i>Error 500</a>
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li data-mega-col="col-md-3" class="col-md-3">
+                <ul class="drilldown-menu">
+                  <li class="menu-list">
+                    <ul class="mega-menu-sub">
+                      <li><a href="#" class="dropdown-item"><i class="ft-watch"></i>Coming Soon</a>
+                        <ul class="mega-menu-sub">
+                          <li><a href="coming-soon-flat.html" class="dropdown-item"><i></i>Flat</a>
+                          </li>
+                          <li><a href="coming-soon-bg-image.html" class="dropdown-item"><i></i>Bg image</a>
+                          </li>
+                          <li><a href="coming-soon-bg-video.html" class="dropdown-item"><i></i>Bg video</a>
+                          </li>
+                        </ul>
+                      </li>
+                      <li><a href="under-maintenance.html" class="dropdown-item"><i class="ft-cloud-off"></i>Maintenance</a>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li data-menu="dropdown" class="dropdown nav-item"><a href="#" data-toggle="dropdown" class="dropdown-toggle nav-link"><i class="ft-droplet"></i><span>UI</span></a>
+            <ul class="dropdown-menu">
+              <li data-menu="dropdown-submenu" class="dropdown dropdown-submenu"><a href="#" data-toggle="dropdown" class="dropdown-item dropdown-toggle">Content</a>
+                <ul class="dropdown-menu">
+                  <li data-menu=""><a href="content-grid.html" data-toggle="dropdown" class="dropdown-item">Grid</a>
+                  </li>
+                  <li data-menu=""><a href="content-typography.html" data-toggle="dropdown" class="dropdown-item">Typography</a>
+                  </li>
+                  <li data-menu=""><a href="content-text-utilities.html" data-toggle="dropdown" class="dropdown-item">Text utilities</a>
+                  </li>
+                  <li data-menu=""><a href="content-syntax-highlighter.html" data-toggle="dropdown" class="dropdown-item">Syntax highlighter</a>
+                  </li>
+                  <li data-menu=""><a href="content-helper-classes.html" data-toggle="dropdown" class="dropdown-item">Helper classes</a>
+                  </li>
+                </ul>
+              </li>
+              <li data-menu="dropdown-submenu" class="dropdown dropdown-submenu"><a href="#" data-toggle="dropdown" class="dropdown-item dropdown-toggle">Cards</a>
+                <ul class="dropdown-menu">
+                  <li data-menu=""><a href="card-bootstrap.html" data-toggle="dropdown" class="dropdown-item">Bootstrap</a>
+                  </li>
+                  <li data-menu=""><a href="card-headings.html" data-toggle="dropdown" class="dropdown-item">Headings</a>
+                  </li>
+                  <li data-menu=""><a href="card-options.html" data-toggle="dropdown" class="dropdown-item">Options</a>
+                  </li>
+                  <li data-menu=""><a href="card-actions.html" data-toggle="dropdown" class="dropdown-item">Action</a>
+                  </li>
+                  <li data-menu=""><a href="card-draggable.html" data-toggle="dropdown" class="dropdown-item">Draggable</a>
+                  </li>
+                </ul>
+              </li>
+              <li data-menu="dropdown-submenu" class="dropdown dropdown-submenu"><a href="#" data-toggle="dropdown" class="dropdown-item dropdown-toggle">Advance Cards</a>
+                <ul class="dropdown-menu">
+                  <li data-menu=""><a href="card-statistics.html" data-toggle="dropdown" class="dropdown-item">Statistics</a>
+                  </li>
+                  <li data-menu=""><a href="card-weather.html" data-toggle="dropdown" class="dropdown-item">Weather</a>
+                  </li>
+                  <li data-menu=""><a href="card-charts.html" data-toggle="dropdown" class="dropdown-item">Charts</a>
+                  </li>
+                  <li data-menu=""><a href="card-maps.html" data-toggle="dropdown" class="dropdown-item">Maps</a>
+                  </li>
+                  <li data-menu=""><a href="card-social.html" data-toggle="dropdown" class="dropdown-item">Social</a>
+                  </li>
+                  <li data-menu=""><a href="card-ecommerce.html" data-toggle="dropdown" class="dropdown-item">E-Commerce</a>
+                  </li>
+                </ul>
+              </li>
+              <li data-menu="dropdown-submenu" class="dropdown dropdown-submenu"><a href="#" data-toggle="dropdown" class="dropdown-item dropdown-toggle">Color Palette</a>
+                <ul class="dropdown-menu">
+                  <li data-menu=""><a href="color-palette-primary.html" data-toggle="dropdown" class="dropdown-item">Primary palette</a>
+                  </li>
+                  <li data-menu=""><a href="color-palette-danger.html" data-toggle="dropdown" class="dropdown-item">Danger palette</a>
+                  </li>
+                  <li data-menu=""><a href="color-palette-success.html" data-toggle="dropdown" class="dropdown-item">Success palette</a>
+                  </li>
+                  <li data-menu=""><a href="color-palette-warning.html" data-toggle="dropdown" class="dropdown-item">Warning palette</a>
+                  </li>
+                  <li data-menu=""><a href="color-palette-info.html" data-toggle="dropdown" class="dropdown-item">Info palette</a>
+                  </li>
+                  <li class="dropdown-divider"></li>
+                  <li data-menu=""><a href="color-palette-red.html" data-toggle="dropdown" class="dropdown-item">Red palette</a>
+                  </li>
+                  <li data-menu=""><a href="color-palette-pink.html" data-toggle="dropdown" class="dropdown-item">Pink palette</a>
+                  </li>
+                  <li data-menu=""><a href="color-palette-purple.html" data-toggle="dropdown" class="dropdown-item">Purple palette</a>
+                  </li>
+                  <li data-menu=""><a href="color-palette-blue.html" data-toggle="dropdown" class="dropdown-item">Blue palette</a>
+                  </li>
+                  <li data-menu=""><a href="color-palette-cyan.html" data-toggle="dropdown" class="dropdown-item">Cyan palette</a>
+                  </li>
+                  <li data-menu=""><a href="color-palette-teal.html" data-toggle="dropdown" class="dropdown-item">Teal palette</a>
+                  </li>
+                  <li data-menu=""><a href="color-palette-yellow.html" data-toggle="dropdown" class="dropdown-item">Yellow palette</a>
+                  </li>
+                  <li data-menu=""><a href="color-palette-amber.html" data-toggle="dropdown" class="dropdown-item">Amber palette</a>
+                  </li>
+                  <li data-menu=""><a href="color-palette-blue-grey.html" data-toggle="dropdown" class="dropdown-item">Blue Grey palette</a>
+                  </li>
+                </ul>
+              </li>
+              <li data-menu="dropdown-submenu" class="dropdown dropdown-submenu"><a href="#" data-toggle="dropdown" class="dropdown-item dropdown-toggle">Icons</a>
+                <ul class="dropdown-menu">
+                  <li data-menu=""><a href="icons-feather.html" data-toggle="dropdown" class="dropdown-item">Feather</a>
+                  </li>
+                  <li data-menu=""><a href="icons-font-awesome.html" data-toggle="dropdown" class="dropdown-item">Font Awesome</a>
+                  </li>
+                  <li data-menu=""><a href="icons-simple-line-icons.html" data-toggle="dropdown" class="dropdown-item">Simple Line Icons</a>
+                  </li>
+                  <li data-menu=""><a href="icons-meteocons.html" data-toggle="dropdown" class="dropdown-item">Meteocons</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li data-menu="dropdown" class="dropdown nav-item"><a href="#" data-toggle="dropdown" class="dropdown-toggle nav-link"><i class="ft-briefcase"></i><span>Components</span></a>
+            <ul class="dropdown-menu">
+              <li data-menu="dropdown-submenu" class="dropdown dropdown-submenu"><a href="#" data-toggle="dropdown" class="dropdown-item dropdown-toggle">Bootstrap Components</a>
+                <ul class="dropdown-menu">
+                  <li data-menu=""><a href="component-alerts.html" data-toggle="dropdown" class="dropdown-item">Alerts</a>
+                  </li>
+                  <li data-menu=""><a href="component-callout.html" data-toggle="dropdown" class="dropdown-item">Callout</a>
+                  </li>
+                  <li data-menu="dropdown-submenu" class="dropdown dropdown-submenu"><a href="#" data-toggle="dropdown" class="dropdown-item dropdown-toggle">Buttons</a>
+                    <ul class="dropdown-menu">
+                      <li data-menu=""><a href="component-buttons-basic.html" data-toggle="dropdown" class="dropdown-item">Basic Buttons</a>
+                      </li>
+                      <li data-menu=""><a href="component-buttons-extended.html" data-toggle="dropdown" class="dropdown-item">Extended Buttons</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li data-menu=""><a href="component-carousel.html" data-toggle="dropdown" class="dropdown-item">Carousel</a>
+                  </li>
+                  <li data-menu=""><a href="component-collapse.html" data-toggle="dropdown" class="dropdown-item">Collapse</a>
+                  </li>
+                  <li data-menu=""><a href="component-dropdowns.html" data-toggle="dropdown" class="dropdown-item">Dropdowns</a>
+                  </li>
+                  <li data-menu=""><a href="component-list-group.html" data-toggle="dropdown" class="dropdown-item">List Group</a>
+                  </li>
+                  <li data-menu=""><a href="component-modals.html" data-toggle="dropdown" class="dropdown-item">Modals</a>
+                  </li>
+                  <li data-menu=""><a href="component-pagination.html" data-toggle="dropdown" class="dropdown-item">Pagination</a>
+                  </li>
+                  <li data-menu=""><a href="component-navs-component.html" data-toggle="dropdown" class="dropdown-item">Navs Component</a>
+                  </li>
+                  <li data-menu=""><a href="component-tabs-component.html" data-toggle="dropdown" class="dropdown-item">Tabs Component</a>
+                  </li>
+                  <li data-menu=""><a href="component-pills-component.html" data-toggle="dropdown" class="dropdown-item">Pills Component</a>
+                  </li>
+                  <li data-menu=""><a href="component-tooltips.html" data-toggle="dropdown" class="dropdown-item">Tooltips</a>
+                  </li>
+                  <li data-menu=""><a href="component-popovers.html" data-toggle="dropdown" class="dropdown-item">Popovers</a>
+                  </li>
+                  <li data-menu=""><a href="component-tags.html" data-toggle="dropdown" class="dropdown-item">Tags</a>
+                  </li>
+                  <li data-menu=""><a href="component-pill-tags.html" data-toggle="dropdown" class="dropdown-item">Pill Tags</a>
+                  </li>
+                  <li data-menu=""><a href="component-progress.html" data-toggle="dropdown" class="dropdown-item">Progress</a>
+                  </li>
+                  <li data-menu=""><a href="component-media-objects.html" data-toggle="dropdown" class="dropdown-item">Media Objects</a>
+                  </li>
+                  <li data-menu=""><a href="component-scrollable.html" data-toggle="dropdown" class="dropdown-item">Scrollable</a>
+                  </li>
+                  <li data-menu=""><a href="component-spinners.html" data-toggle="dropdown" class="dropdown-item">Spinners</a>
+                  </li>
+                </ul>
+              </li>
+              <li data-menu="dropdown-submenu" class="dropdown dropdown-submenu"><a href="#" data-toggle="dropdown" class="dropdown-item dropdown-toggle">Extra Components</a>
+                <ul class="dropdown-menu">
+                  <li data-menu=""><a href="ex-component-sweet-alerts.html" data-toggle="dropdown" class="dropdown-item">Sweet Alerts</a>
+                  </li>
+                  <li data-menu=""><a href="ex-component-ratings.html" data-toggle="dropdown" class="dropdown-item">Ratings</a>
+                  </li>
+                  <li data-menu=""><a href="ex-component-toastr.html" data-toggle="dropdown" class="dropdown-item">Toastr</a>
+                  </li>
+                  <li data-menu=""><a href="ex-component-noui-slider.html" data-toggle="dropdown" class="dropdown-item">NoUI Slider</a>
+                  </li>
+                  <li data-menu=""><a href="ex-component-knob.html" data-toggle="dropdown" class="dropdown-item">Knob</a>
+                  </li>
+                  <li data-menu=""><a href="ex-component-block-ui.html" data-toggle="dropdown" class="dropdown-item">Block UI</a>
+                  </li>
+                  <li data-menu=""><a href="ex-component-date-time-picker.html" data-toggle="dropdown" class="dropdown-item">DateTime Picker</a>
+                  </li>
+                  <li data-menu=""><a href="ex-component-file-uploader-dropzone.html" data-toggle="dropdown" class="dropdown-item">File Uploader</a>
+                  </li>
+                  <li data-menu=""><a href="ex-component-image-cropper.html" data-toggle="dropdown" class="dropdown-item">Image Cropper</a>
+                  </li>
+                </ul>
+              </li>
+              <li data-menu="dropdown-submenu" class="dropdown dropdown-submenu"><a href="#" data-toggle="dropdown" class="dropdown-item dropdown-toggle">Forms</a>
+                <ul class="dropdown-menu">
+                  <li data-menu="dropdown-submenu" class="dropdown dropdown-submenu"><a href="#" data-toggle="dropdown" class="dropdown-item dropdown-toggle">Form Elements<i class="icon-wpforms"></i></a>
+                    <ul class="dropdown-menu">
+                      <li data-menu=""><a href="form-inputs.html" data-toggle="dropdown" class="dropdown-item">Form Inputs</a>
+                      </li>
+                      <li data-menu=""><a href="form-input-groups.html" data-toggle="dropdown" class="dropdown-item">Input Groups</a>
+                      </li>
+                      <li data-menu=""><a href="form-input-grid.html" data-toggle="dropdown" class="dropdown-item">Input Grid</a>
+                      </li>
+                      <li data-menu=""><a href="form-extended-inputs.html" data-toggle="dropdown" class="dropdown-item">Extended Inputs</a>
+                      </li>
+                      <li data-menu=""><a href="form-checkboxes-radios.html" data-toggle="dropdown" class="dropdown-item">Checkboxes &amp; Radios</a>
+                      </li>
+                      <li data-menu=""><a href="form-switch.html" data-toggle="dropdown" class="dropdown-item">Switch</a>
+                      </li>
+                      <li data-menu=""><a href="form-select2.html" data-toggle="dropdown" class="dropdown-item">Select2</a>
+                      </li>
+                      <li data-menu=""><a href="form-tags-input.html" data-toggle="dropdown" class="dropdown-item">Tags Input</a>
+                      </li>
+                      <li data-menu=""><a href="form-validation.html" data-toggle="dropdown" class="dropdown-item">Validation</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li data-menu="dropdown-submenu" class="dropdown dropdown-submenu"><a href="#" data-toggle="dropdown" class="dropdown-item dropdown-toggle">Form Layouts<i class="icon-wpforms"></i></a>
+                    <ul class="dropdown-menu">
+                      <li data-menu=""><a href="form-layout-basic.html" data-toggle="dropdown" class="dropdown-item">Basic Forms</a>
+                      </li>
+                      <li data-menu=""><a href="form-layout-horizontal.html" data-toggle="dropdown" class="dropdown-item">Horizontal Forms</a>
+                      </li>
+                      <li data-menu=""><a href="form-layout-hidden-labels.html" data-toggle="dropdown" class="dropdown-item">Hidden Labels</a>
+                      </li>
+                      <li data-menu=""><a href="form-layout-form-actions.html" data-toggle="dropdown" class="dropdown-item">Form Actions</a>
+                      </li>
+                      <li data-menu=""><a href="form-layout-bordered.html" data-toggle="dropdown" class="dropdown-item">Bordered</a>
+                      </li>
+                      <li data-menu=""><a href="form-layout-striped-rows.html" data-toggle="dropdown" class="dropdown-item">Striped Rows</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li data-menu=""><a href="form-wizard.html" data-toggle="dropdown" class="dropdown-item">Form Wizard<i class="icon-paste"></i></a>
+                  </li>
+                  <li data-menu=""><a href="form-repeater.html" data-toggle="dropdown" class="dropdown-item">Form Repeater<i class="icon-paste"></i></a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li data-menu="dropdown" class="dropdown nav-item"><a href="#" data-toggle="dropdown" class="dropdown-toggle nav-link"><i class="ft-grid"></i><span>Tables</span></a>
+            <ul class="dropdown-menu">
+              <li data-menu="dropdown-submenu" class="dropdown dropdown-submenu"><a href="#" data-toggle="dropdown" class="dropdown-item dropdown-toggle">Bootstrap Tables<i class="icon-table2"></i></a>
+                <ul class="dropdown-menu">
+                  <li data-menu=""><a href="table-basic.html" data-toggle="dropdown" class="dropdown-item">Basic Tables</a>
+                  </li>
+                  <li data-menu=""><a href="table-border.html" data-toggle="dropdown" class="dropdown-item">Table Border</a>
+                  </li>
+                  <li data-menu=""><a href="table-sizing.html" data-toggle="dropdown" class="dropdown-item">Table Sizing</a>
+                  </li>
+                  <li data-menu=""><a href="table-styling.html" data-toggle="dropdown" class="dropdown-item">Table Styling</a>
+                  </li>
+                  <li data-menu=""><a href="table-components.html" data-toggle="dropdown" class="dropdown-item">Table Components</a>
+                  </li>
+                </ul>
+              </li>
+              <li data-menu="dropdown-submenu" class="dropdown dropdown-submenu"><a href="#" data-toggle="dropdown" class="dropdown-item dropdown-toggle">DataTables<i class="icon-th"></i></a>
+                <ul class="dropdown-menu">
+                  <li data-menu=""><a href="dt-basic-initialization.html" data-toggle="dropdown" class="dropdown-item">Basic Initialisation</a>
+                  </li>
+                  <li data-menu=""><a href="dt-advanced-initialization.html" data-toggle="dropdown" class="dropdown-item">Advanced initialisation</a>
+                  </li>
+                  <li data-menu=""><a href="dt-styling.html" data-toggle="dropdown" class="dropdown-item">Styling</a>
+                  </li>
+                  <li data-menu=""><a href="dt-data-sources.html" data-toggle="dropdown" class="dropdown-item">Data Sources</a>
+                  </li>
+                  <li data-menu=""><a href="dt-api.html" data-toggle="dropdown" class="dropdown-item">API</a>
+                  </li>
+                </ul>
+              </li>
+              <li data-menu="dropdown-submenu" class="dropdown dropdown-submenu"><a href="#" data-toggle="dropdown" class="dropdown-item dropdown-toggle">DataTables Ext.<i class="icon-th-large"></i></a>
+                <ul class="dropdown-menu">
+                  <li data-menu=""><a href="dt-extensions-autofill.html" data-toggle="dropdown" class="dropdown-item">AutoFill</a>
+                  </li>
+                  <li data-menu="dropdown-submenu" class="dropdown dropdown-submenu"><a href="#" data-toggle="dropdown" class="dropdown-item dropdown-toggle">Buttons</a>
+                    <ul class="dropdown-menu">
+                      <li data-menu=""><a href="dt-extensions-buttons-basic.html" data-toggle="dropdown" class="dropdown-item">Basic Buttons</a>
+                      </li>
+                      <li data-menu=""><a href="dt-extensions-buttons-html-5-data-export.html" data-toggle="dropdown" class="dropdown-item">HTML 5 Data Export</a>
+                      </li>
+                      <li data-menu=""><a href="dt-extensions-buttons-flash-data-export.html" data-toggle="dropdown" class="dropdown-item">Flash Data Export</a>
+                      </li>
+                      <li data-menu=""><a href="dt-extensions-buttons-column-visibility.html" data-toggle="dropdown" class="dropdown-item">Column Visibility</a>
+                      </li>
+                      <li data-menu=""><a href="dt-extensions-buttons-print.html" data-toggle="dropdown" class="dropdown-item">Print</a>
+                      </li>
+                      <li data-menu="" class="active"><a href="dt-extensions-buttons-api.html" data-toggle="dropdown" class="dropdown-item">API</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li data-menu=""><a href="dt-extensions-column-reorder.html" data-toggle="dropdown" class="dropdown-item">Column Reorder</a>
+                  </li>
+                  <li data-menu=""><a href="dt-extensions-fixed-columns.html" data-toggle="dropdown" class="dropdown-item">Fixed Columns</a>
+                  </li>
+                  <li data-menu=""><a href="dt-extensions-key-table.html" data-toggle="dropdown" class="dropdown-item">Key Table</a>
+                  </li>
+                  <li data-menu=""><a href="dt-extensions-row-reorder.html" data-toggle="dropdown" class="dropdown-item">Row Reorder</a>
+                  </li>
+                  <li data-menu=""><a href="dt-extensions-select.html" data-toggle="dropdown" class="dropdown-item">Select</a>
+                  </li>
+                  <li data-menu=""><a href="dt-extensions-fix-header.html" data-toggle="dropdown" class="dropdown-item">Fix Header</a>
+                  </li>
+                  <li data-menu=""><a href="dt-extensions-responsive.html" data-toggle="dropdown" class="dropdown-item">Responsive</a>
+                  </li>
+                  <li data-menu=""><a href="dt-extensions-column-visibility.html" data-toggle="dropdown" class="dropdown-item">Column Visibility</a>
+                  </li>
+                </ul>
+              </li>
+              <li data-menu=""><a href="table-jsgrid.html" data-toggle="dropdown" class="dropdown-item">jsGrid<i class="icon-table"></i></a>
+              </li>
+            </ul>
+          </li>
+          <li data-menu="megamenu" class="dropdown mega-dropdown nav-item"><a href="#" data-toggle="dropdown" class="dropdown-toggle nav-link"><i class="ft-bar-chart-2"></i><span>Charts &amp; Maps</span></a>
+            <ul class="mega-dropdown-menu dropdown-menu row">
+              <li data-mega-col="col-md-3" class="col-md-3">
+                <ul class="drilldown-menu">
+                  <li class="menu-list">
+                    <ul class="mega-menu-sub">
+                      <li><a href="#" class="dropdown-item"><i class="icon-bubble_chart"></i>Echarts</a>
+                        <ul class="mega-menu-sub">
+                          <li><a href="echarts-line-area-charts.html" class="dropdown-item"><i class="undefined"></i>Line &amp; Area charts</a>
+                          </li>
+                          <li><a href="echarts-bar-column-charts.html" class="dropdown-item"><i class="undefined"></i>Bar &amp; Column charts</a>
+                          </li>
+                          <li><a href="echarts-pie-doughnut-charts.html" class="dropdown-item"><i class="undefined"></i>Pie &amp; Doughnut charts</a>
+                          </li>
+                          <li><a href="echarts-scatter-charts.html" class="dropdown-item"><i class="undefined"></i>Scatter charts</a>
+                          </li>
+                          <li><a href="echarts-radar-chord-charts.html" class="dropdown-item"><i class="undefined"></i>Radar &amp; Chord charts</a>
+                          </li>
+                          <li><a href="echarts-funnel-gauges-charts.html" class="dropdown-item"><i class="undefined"></i>Funnel &amp; Gauges charts</a>
+                          </li>
+                          <li><a href="echarts-combination-charts.html" class="dropdown-item"><i class="undefined"></i>Combination charts</a>
+                          </li>
+                          <li><a href="echarts-advance-charts.html" class="dropdown-item"><i class="undefined"></i>Advance charts</a>
+                          </li>
+                        </ul>
+                      </li>
+                      <li><a href="#" class="dropdown-item"><i class="icon-stats-dots"></i>Chartjs</a>
+                        <ul class="mega-menu-sub">
+                          <li><a href="chartjs-line-charts.html" class="dropdown-item"><i class="undefined"></i>Line charts</a>
+                          </li>
+                          <li><a href="chartjs-bar-charts.html" class="dropdown-item"><i class="undefined"></i>Bar charts</a>
+                          </li>
+                          <li><a href="chartjs-pie-doughnut-charts.html" class="dropdown-item"><i class="undefined"></i>Pie &amp; Doughnut charts</a>
+                          </li>
+                          <li><a href="chartjs-scatter-charts.html" class="dropdown-item"><i class="undefined"></i>Scatter charts</a>
+                          </li>
+                          <li><a href="chartjs-polar-radar-charts.html" class="dropdown-item"><i class="undefined"></i>Polar &amp; Radar charts</a>
+                          </li>
+                          <li><a href="chartjs-advance-charts.html" class="dropdown-item"><i class="undefined"></i>Advance charts</a>
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li data-mega-col="col-md-3" class="col-md-3">
+                <ul class="drilldown-menu">
+                  <li class="menu-list">
+                    <ul class="mega-menu-sub">
+                      <li><a href="morris-charts.html" class="dropdown-item"><i class="icon-graphic_eq"></i>Morris Charts</a>
+                      </li>
+                      <li><a href="#" class="dropdown-item"><i class="icon-pie-graph2"></i>Flot Charts</a>
+                        <ul class="mega-menu-sub">
+                          <li><a href="flot-line-charts.html" class="dropdown-item"><i class="undefined"></i>Line charts</a>
+                          </li>
+                          <li><a href="flot-bar-charts.html" class="dropdown-item"><i class="undefined"></i>Bar charts</a>
+                          </li>
+                          <li><a href="flot-pie-charts.html" class="dropdown-item"><i class="undefined"></i>Pie charts</a>
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li data-mega-col="col-md-3" class="col-md-3">
+                <ul class="drilldown-menu">
+                  <li class="menu-list">
+                    <ul class="mega-menu-sub">
+                      <li><a href="#" class="dropdown-item"><i class="icon-stats-bars"></i>Chartist</a>
+                        <ul class="mega-menu-sub">
+                          <li><a href="chartist-line-charts.html" class="dropdown-item"><i class="undefined"></i>Line charts</a>
+                          </li>
+                          <li><a href="chartist-bar-charts.html" class="dropdown-item"><i class="undefined"></i>Bar charts</a>
+                          </li>
+                          <li><a href="chartist-pie-charts.html" class="dropdown-item"><i class="undefined"></i>Pie charts</a>
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li data-mega-col="col-md-3" class="col-md-3">
+                <ul class="drilldown-menu">
+                  <li class="menu-list">
+                    <ul class="mega-menu-sub">
+                      <li><a href="#" class="dropdown-item"><i class="undefined"></i>Maps</a>
+                        <ul class="mega-menu-sub">
+                          <li><a href="#" class="dropdown-item"><i class="undefined"></i>google Maps</a>
+                            <ul class="mega-menu-sub">
+                              <li><a href="gmaps-basic-maps.html" class="dropdown-item"><i class="undefined"></i>Maps</a>
+                              </li>
+                              <li><a href="gmaps-services.html" class="dropdown-item"><i class="undefined"></i>Services</a>
+                              </li>
+                              <li><a href="gmaps-overlays.html" class="dropdown-item"><i class="undefined"></i>Overlays</a>
+                              </li>
+                              <li><a href="gmaps-routes.html" class="dropdown-item"><i class="undefined"></i>Routes</a>
+                              </li>
+                              <li><a href="gmaps-utils.html" class="dropdown-item"><i class="undefined"></i>Utils</a>
+                              </li>
+                            </ul>
+                          </li>
+                          <li><a href="vector-maps-jvector.html" class="dropdown-item"><i class="undefined"></i>jVector Map</a>
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <!-- /horizontal menu content-->
+    </div>
+    <!-- Horizontal navigation-->
+
+    <div class="app-content content container-fluid">
+      <div class="content-wrapper">
+        <div class="content-header row">
+          <div class="content-header-left col-md-6 col-xs-12 mb-2">
+            <h3 class="content-header-title mb-0">Button API</h3>
+            <div class="row breadcrumbs-top">
+              <div class="breadcrumb-wrapper col-xs-12">
+                <ol class="breadcrumb">
+                  <li class="breadcrumb-item"><a href="index.html">Home</a>
+                  </li>
+                  <li class="breadcrumb-item"><a href="#">DataTables</a>
+                  </li>
+                  <li class="breadcrumb-item active">API DataTable
+                  </li>
+                </ol>
+              </div>
+            </div>
+          </div>
+          <div class="content-header-right col-md-6 col-xs-12">
+            <div class="media width-250 float-xs-right">
+              <div class="media-left media-middle">
+                <div id="sp-bar-total-sales"></div>
+              </div>
+              <div class="media-body media-right text-xs-right">
+                <h3 class="m-0">$5,668</h3><span class="text-muted">Sales</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="content-body"><!-- Enable / disable table -->
+<section id="basic">
+	<div class="row">
+		<div class="col-xs-12">
+			<div class="card">
+				<div class="card-header">
+					<h4 class="card-title">Enable / disable</h4>
+					<a class="heading-elements-toggle"><i class="fa fa-ellipsis-v font-medium-3"></i></a>
+					<div class="heading-elements">
+						<ul class="list-inline mb-0">
+							<li><a data-action="collapse"><i class="ft-minus"></i></a></li>
+							<li><a data-action="reload"><i class="ft-rotate-cw"></i></a></li>
+							<li><a data-action="expand"><i class="ft-maximize"></i></a></li>
+							<li><a data-action="close"><i class="ft-x"></i></a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="card-body collapse in">
+					<div class="card-block card-dashboard">
+						<p>It can often be useful to be able to dynamically enable and disable buttons based on the document state and other components in the table. A typical example of this is to enable a button that will take action on a selected row in the table, only when there is a row selected! If there is no row selected, the button should not take any action when clicked upon (i.e. it is disabled).
+						</p>
+						<table class="table table-striped table-bordered dataex-aip-enable-disable">
+							<thead>
+								<tr>
+									<th>Name</th>
+									<th>Position</th>
+									<th>Office</th>
+									<th>Age</th>
+									<th>Start date</th>
+									<th>Salary</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>Tiger Nixon</td>
+									<td>System Architect</td>
+									<td>Edinburgh</td>
+									<td>61</td>
+									<td>2011/04/25</td>
+									<td>$320,800</td>
+								</tr>
+								<tr>
+									<td>Garrett Winters</td>
+									<td>Accountant</td>
+									<td>Tokyo</td>
+									<td>63</td>
+									<td>2011/07/25</td>
+									<td>$170,750</td>
+								</tr>
+								<tr>
+									<td>Ashton Cox</td>
+									<td>Junior Technical Author</td>
+									<td>San Francisco</td>
+									<td>66</td>
+									<td>2009/01/12</td>
+									<td>$86,000</td>
+								</tr>
+								<tr>
+									<td>Cedric Kelly</td>
+									<td>Senior Javascript Developer</td>
+									<td>Edinburgh</td>
+									<td>22</td>
+									<td>2012/03/29</td>
+									<td>$433,060</td>
+								</tr>
+								<tr>
+									<td>Airi Satou</td>
+									<td>Accountant</td>
+									<td>Tokyo</td>
+									<td>33</td>
+									<td>2008/11/28</td>
+									<td>$162,700</td>
+								</tr>
+								<tr>
+									<td>Brielle Williamson</td>
+									<td>Integration Specialist</td>
+									<td>New York</td>
+									<td>61</td>
+									<td>2012/12/02</td>
+									<td>$372,000</td>
+								</tr>
+								<tr>
+									<td>Herrod Chandler</td>
+									<td>Sales Assistant</td>
+									<td>San Francisco</td>
+									<td>59</td>
+									<td>2012/08/06</td>
+									<td>$137,500</td>
+								</tr>
+								<tr>
+									<td>Rhona Davidson</td>
+									<td>Integration Specialist</td>
+									<td>Tokyo</td>
+									<td>55</td>
+									<td>2010/10/14</td>
+									<td>$327,900</td>
+								</tr>
+								<tr>
+									<td>Colleen Hurst</td>
+									<td>Javascript Developer</td>
+									<td>San Francisco</td>
+									<td>39</td>
+									<td>2009/09/15</td>
+									<td>$205,500</td>
+								</tr>
+								<tr>
+									<td>Sonya Frost</td>
+									<td>Software Engineer</td>
+									<td>Edinburgh</td>
+									<td>23</td>
+									<td>2008/12/13</td>
+									<td>$103,600</td>
+								</tr>
+								<tr>
+									<td>Jena Gaines</td>
+									<td>Office Manager</td>
+									<td>London</td>
+									<td>30</td>
+									<td>2008/12/19</td>
+									<td>$90,560</td>
+								</tr>
+								<tr>
+									<td>Quinn Flynn</td>
+									<td>Support Lead</td>
+									<td>Edinburgh</td>
+									<td>22</td>
+									<td>2013/03/03</td>
+									<td>$342,000</td>
+								</tr>
+								<tr>
+									<td>Charde Marshall</td>
+									<td>Regional Director</td>
+									<td>San Francisco</td>
+									<td>36</td>
+									<td>2008/10/16</td>
+									<td>$470,600</td>
+								</tr>
+								<tr>
+									<td>Haley Kennedy</td>
+									<td>Senior Marketing Designer</td>
+									<td>London</td>
+									<td>43</td>
+									<td>2012/12/18</td>
+									<td>$313,500</td>
+								</tr>
+								<tr>
+									<td>Tatyana Fitzpatrick</td>
+									<td>Regional Director</td>
+									<td>London</td>
+									<td>19</td>
+									<td>2010/03/17</td>
+									<td>$385,750</td>
+								</tr>
+								<tr>
+									<td>Michael Silva</td>
+									<td>Marketing Designer</td>
+									<td>London</td>
+									<td>66</td>
+									<td>2012/11/27</td>
+									<td>$198,500</td>
+								</tr>
+								<tr>
+									<td>Paul Byrd</td>
+									<td>Chief Financial Officer (CFO)</td>
+									<td>New York</td>
+									<td>64</td>
+									<td>2010/06/09</td>
+									<td>$725,000</td>
+								</tr>
+								<tr>
+									<td>Gloria Little</td>
+									<td>Systems Administrator</td>
+									<td>New York</td>
+									<td>59</td>
+									<td>2009/04/10</td>
+									<td>$237,500</td>
+								</tr>
+								<tr>
+									<td>Bradley Greer</td>
+									<td>Software Engineer</td>
+									<td>London</td>
+									<td>41</td>
+									<td>2012/10/13</td>
+									<td>$132,000</td>
+								</tr>
+								<tr>
+									<td>Dai Rios</td>
+									<td>Personnel Lead</td>
+									<td>Edinburgh</td>
+									<td>35</td>
+									<td>2012/09/26</td>
+									<td>$217,500</td>
+								</tr>
+								<tr>
+									<td>Jenette Caldwell</td>
+									<td>Development Lead</td>
+									<td>New York</td>
+									<td>30</td>
+									<td>2011/09/03</td>
+									<td>$345,000</td>
+								</tr>
+								<tr>
+									<td>Yuri Berry</td>
+									<td>Chief Marketing Officer (CMO)</td>
+									<td>New York</td>
+									<td>40</td>
+									<td>2009/06/25</td>
+									<td>$675,000</td>
+								</tr>
+								<tr>
+									<td>Caesar Vance</td>
+									<td>Pre-Sales Support</td>
+									<td>New York</td>
+									<td>21</td>
+									<td>2011/12/12</td>
+									<td>$106,450</td>
+								</tr>
+								<tr>
+									<td>Doris Wilder</td>
+									<td>Sales Assistant</td>
+									<td>Sidney</td>
+									<td>23</td>
+									<td>2010/09/20</td>
+									<td>$85,600</td>
+								</tr>
+								<tr>
+									<td>Angelica Ramos</td>
+									<td>Chief Executive Officer (CEO)</td>
+									<td>London</td>
+									<td>47</td>
+									<td>2009/10/09</td>
+									<td>$1,200,000</td>
+								</tr>
+								<tr>
+									<td>Gavin Joyce</td>
+									<td>Developer</td>
+									<td>Edinburgh</td>
+									<td>42</td>
+									<td>2010/12/22</td>
+									<td>$92,575</td>
+								</tr>
+								<tr>
+									<td>Jennifer Chang</td>
+									<td>Regional Director</td>
+									<td>Singapore</td>
+									<td>28</td>
+									<td>2010/11/14</td>
+									<td>$357,650</td>
+								</tr>
+								<tr>
+									<td>Brenden Wagner</td>
+									<td>Software Engineer</td>
+									<td>San Francisco</td>
+									<td>28</td>
+									<td>2011/06/07</td>
+									<td>$206,850</td>
+								</tr>
+								<tr>
+									<td>Fiona Green</td>
+									<td>Chief Operating Officer (COO)</td>
+									<td>San Francisco</td>
+									<td>48</td>
+									<td>2010/03/11</td>
+									<td>$850,000</td>
+								</tr>
+								<tr>
+									<td>Shou Itou</td>
+									<td>Regional Marketing</td>
+									<td>Tokyo</td>
+									<td>20</td>
+									<td>2011/08/14</td>
+									<td>$163,000</td>
+								</tr>
+								<tr>
+									<td>Michelle House</td>
+									<td>Integration Specialist</td>
+									<td>Sidney</td>
+									<td>37</td>
+									<td>2011/06/02</td>
+									<td>$95,400</td>
+								</tr>
+								<tr>
+									<td>Suki Burks</td>
+									<td>Developer</td>
+									<td>London</td>
+									<td>53</td>
+									<td>2009/10/22</td>
+									<td>$114,500</td>
+								</tr>
+								<tr>
+									<td>Prescott Bartlett</td>
+									<td>Technical Author</td>
+									<td>London</td>
+									<td>27</td>
+									<td>2011/05/07</td>
+									<td>$145,000</td>
+								</tr>
+								<tr>
+									<td>Gavin Cortez</td>
+									<td>Team Leader</td>
+									<td>San Francisco</td>
+									<td>22</td>
+									<td>2008/10/26</td>
+									<td>$235,500</td>
+								</tr>
+								<tr>
+									<td>Martena Mccray</td>
+									<td>Post-Sales support</td>
+									<td>Edinburgh</td>
+									<td>46</td>
+									<td>2011/03/09</td>
+									<td>$324,050</td>
+								</tr>
+								<tr>
+									<td>Unity Butler</td>
+									<td>Marketing Designer</td>
+									<td>San Francisco</td>
+									<td>47</td>
+									<td>2009/12/09</td>
+									<td>$85,675</td>
+								</tr>
+								<tr>
+									<td>Howard Hatfield</td>
+									<td>Office Manager</td>
+									<td>San Francisco</td>
+									<td>51</td>
+									<td>2008/12/16</td>
+									<td>$164,500</td>
+								</tr>
+								<tr>
+									<td>Hope Fuentes</td>
+									<td>Secretary</td>
+									<td>San Francisco</td>
+									<td>41</td>
+									<td>2010/02/12</td>
+									<td>$109,850</td>
+								</tr>
+								<tr>
+									<td>Vivian Harrell</td>
+									<td>Financial Controller</td>
+									<td>San Francisco</td>
+									<td>62</td>
+									<td>2009/02/14</td>
+									<td>$452,500</td>
+								</tr>
+								<tr>
+									<td>Timothy Mooney</td>
+									<td>Office Manager</td>
+									<td>London</td>
+									<td>37</td>
+									<td>2008/12/11</td>
+									<td>$136,200</td>
+								</tr>
+								<tr>
+									<td>Jackson Bradshaw</td>
+									<td>Director</td>
+									<td>New York</td>
+									<td>65</td>
+									<td>2008/09/26</td>
+									<td>$645,750</td>
+								</tr>
+								<tr>
+									<td>Olivia Liang</td>
+									<td>Support Engineer</td>
+									<td>Singapore</td>
+									<td>64</td>
+									<td>2011/02/03</td>
+									<td>$234,500</td>
+								</tr>
+								<tr>
+									<td>Bruno Nash</td>
+									<td>Software Engineer</td>
+									<td>London</td>
+									<td>38</td>
+									<td>2011/05/03</td>
+									<td>$163,500</td>
+								</tr>
+								<tr>
+									<td>Sakura Yamamoto</td>
+									<td>Support Engineer</td>
+									<td>Tokyo</td>
+									<td>37</td>
+									<td>2009/08/19</td>
+									<td>$139,575</td>
+								</tr>
+								<tr>
+									<td>Thor Walton</td>
+									<td>Developer</td>
+									<td>New York</td>
+									<td>61</td>
+									<td>2013/08/11</td>
+									<td>$98,540</td>
+								</tr>
+								<tr>
+									<td>Finn Camacho</td>
+									<td>Support Engineer</td>
+									<td>San Francisco</td>
+									<td>47</td>
+									<td>2009/07/07</td>
+									<td>$87,500</td>
+								</tr>
+								<tr>
+									<td>Serge Baldwin</td>
+									<td>Data Coordinator</td>
+									<td>Singapore</td>
+									<td>64</td>
+									<td>2012/04/09</td>
+									<td>$138,575</td>
+								</tr>
+								<tr>
+									<td>Zenaida Frank</td>
+									<td>Software Engineer</td>
+									<td>New York</td>
+									<td>63</td>
+									<td>2010/01/04</td>
+									<td>$125,250</td>
+								</tr>
+								<tr>
+									<td>Zorita Serrano</td>
+									<td>Software Engineer</td>
+									<td>San Francisco</td>
+									<td>56</td>
+									<td>2012/06/01</td>
+									<td>$115,000</td>
+								</tr>
+								<tr>
+									<td>Jennifer Acosta</td>
+									<td>Junior Javascript Developer</td>
+									<td>Edinburgh</td>
+									<td>43</td>
+									<td>2013/02/01</td>
+									<td>$75,650</td>
+								</tr>
+								<tr>
+									<td>Cara Stevens</td>
+									<td>Sales Assistant</td>
+									<td>New York</td>
+									<td>46</td>
+									<td>2011/12/06</td>
+									<td>$145,600</td>
+								</tr>
+								<tr>
+									<td>Hermione Butler</td>
+									<td>Regional Director</td>
+									<td>London</td>
+									<td>47</td>
+									<td>2011/03/21</td>
+									<td>$356,250</td>
+								</tr>
+								<tr>
+									<td>Lael Greer</td>
+									<td>Systems Administrator</td>
+									<td>London</td>
+									<td>21</td>
+									<td>2009/02/27</td>
+									<td>$103,500</td>
+								</tr>
+								<tr>
+									<td>Jonas Alexander</td>
+									<td>Developer</td>
+									<td>San Francisco</td>
+									<td>30</td>
+									<td>2010/07/14</td>
+									<td>$86,500</td>
+								</tr>
+								<tr>
+									<td>Shad Decker</td>
+									<td>Regional Director</td>
+									<td>Edinburgh</td>
+									<td>51</td>
+									<td>2008/11/13</td>
+									<td>$183,000</td>
+								</tr>
+								<tr>
+									<td>Michael Bruce</td>
+									<td>Javascript Developer</td>
+									<td>Singapore</td>
+									<td>29</td>
+									<td>2011/06/27</td>
+									<td>$183,000</td>
+								</tr>
+								<tr>
+									<td>Donna Snider</td>
+									<td>Customer Support</td>
+									<td>New York</td>
+									<td>27</td>
+									<td>2011/01/25</td>
+									<td>$112,000</td>
+								</tr>
+							</tbody>
+							<tfoot>
+								<tr>
+									<th>Name</th>
+									<th>Position</th>
+									<th>Office</th>
+									<th>Age</th>
+									<th>Start date</th>
+									<th>Salary</th>
+								</tr>
+							</tfoot>
+						</table>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!--/ Enable / disable table -->
+
+<!-- Dynamic text table -->
+<section id="dynamic-text">
+	<div class="row">
+		<div class="col-xs-12">
+			<div class="card">
+				<div class="card-header">
+					<h4 class="card-title">Dynamic text</h4>
+					<a class="heading-elements-toggle"><i class="fa fa-ellipsis-v font-medium-3"></i></a>
+					<div class="heading-elements">
+						<ul class="list-inline mb-0">
+							<li><a data-action="collapse"><i class="ft-minus"></i></a></li>
+							<li><a data-action="reload"><i class="ft-rotate-cw"></i></a></li>
+							<li><a data-action="expand"><i class="ft-maximize"></i></a></li>
+							<li><a data-action="close"><i class="ft-x"></i></a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="card-body collapse in">
+					<div class="card-block card-dashboard">
+						<p>
+						This example demonstrates Buttons' ability to dynamically set the text of buttons through the button().text() method. Here the button's text will be updated to indicate the number of times it has been clicked upon.
+						</p>
+						<p>
+						There are also two other important aspects of the Buttons API demonstrated here:
+						</p>
+						<table class="table table-striped table-bordered dataex-aip-dynamic">
+							<thead>
+								<tr>
+									<th>Name</th>
+									<th>Position</th>
+									<th>Office</th>
+									<th>Age</th>
+									<th>Start date</th>
+									<th>Salary</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>Tiger Nixon</td>
+									<td>System Architect</td>
+									<td>Edinburgh</td>
+									<td>61</td>
+									<td>2011/04/25</td>
+									<td>$320,800</td>
+								</tr>
+								<tr>
+									<td>Garrett Winters</td>
+									<td>Accountant</td>
+									<td>Tokyo</td>
+									<td>63</td>
+									<td>2011/07/25</td>
+									<td>$170,750</td>
+								</tr>
+								<tr>
+									<td>Ashton Cox</td>
+									<td>Junior Technical Author</td>
+									<td>San Francisco</td>
+									<td>66</td>
+									<td>2009/01/12</td>
+									<td>$86,000</td>
+								</tr>
+								<tr>
+									<td>Cedric Kelly</td>
+									<td>Senior Javascript Developer</td>
+									<td>Edinburgh</td>
+									<td>22</td>
+									<td>2012/03/29</td>
+									<td>$433,060</td>
+								</tr>
+								<tr>
+									<td>Airi Satou</td>
+									<td>Accountant</td>
+									<td>Tokyo</td>
+									<td>33</td>
+									<td>2008/11/28</td>
+									<td>$162,700</td>
+								</tr>
+								<tr>
+									<td>Brielle Williamson</td>
+									<td>Integration Specialist</td>
+									<td>New York</td>
+									<td>61</td>
+									<td>2012/12/02</td>
+									<td>$372,000</td>
+								</tr>
+								<tr>
+									<td>Herrod Chandler</td>
+									<td>Sales Assistant</td>
+									<td>San Francisco</td>
+									<td>59</td>
+									<td>2012/08/06</td>
+									<td>$137,500</td>
+								</tr>
+								<tr>
+									<td>Rhona Davidson</td>
+									<td>Integration Specialist</td>
+									<td>Tokyo</td>
+									<td>55</td>
+									<td>2010/10/14</td>
+									<td>$327,900</td>
+								</tr>
+								<tr>
+									<td>Colleen Hurst</td>
+									<td>Javascript Developer</td>
+									<td>San Francisco</td>
+									<td>39</td>
+									<td>2009/09/15</td>
+									<td>$205,500</td>
+								</tr>
+								<tr>
+									<td>Sonya Frost</td>
+									<td>Software Engineer</td>
+									<td>Edinburgh</td>
+									<td>23</td>
+									<td>2008/12/13</td>
+									<td>$103,600</td>
+								</tr>
+								<tr>
+									<td>Jena Gaines</td>
+									<td>Office Manager</td>
+									<td>London</td>
+									<td>30</td>
+									<td>2008/12/19</td>
+									<td>$90,560</td>
+								</tr>
+								<tr>
+									<td>Quinn Flynn</td>
+									<td>Support Lead</td>
+									<td>Edinburgh</td>
+									<td>22</td>
+									<td>2013/03/03</td>
+									<td>$342,000</td>
+								</tr>
+								<tr>
+									<td>Charde Marshall</td>
+									<td>Regional Director</td>
+									<td>San Francisco</td>
+									<td>36</td>
+									<td>2008/10/16</td>
+									<td>$470,600</td>
+								</tr>
+								<tr>
+									<td>Haley Kennedy</td>
+									<td>Senior Marketing Designer</td>
+									<td>London</td>
+									<td>43</td>
+									<td>2012/12/18</td>
+									<td>$313,500</td>
+								</tr>
+								<tr>
+									<td>Tatyana Fitzpatrick</td>
+									<td>Regional Director</td>
+									<td>London</td>
+									<td>19</td>
+									<td>2010/03/17</td>
+									<td>$385,750</td>
+								</tr>
+								<tr>
+									<td>Michael Silva</td>
+									<td>Marketing Designer</td>
+									<td>London</td>
+									<td>66</td>
+									<td>2012/11/27</td>
+									<td>$198,500</td>
+								</tr>
+								<tr>
+									<td>Paul Byrd</td>
+									<td>Chief Financial Officer (CFO)</td>
+									<td>New York</td>
+									<td>64</td>
+									<td>2010/06/09</td>
+									<td>$725,000</td>
+								</tr>
+								<tr>
+									<td>Gloria Little</td>
+									<td>Systems Administrator</td>
+									<td>New York</td>
+									<td>59</td>
+									<td>2009/04/10</td>
+									<td>$237,500</td>
+								</tr>
+								<tr>
+									<td>Bradley Greer</td>
+									<td>Software Engineer</td>
+									<td>London</td>
+									<td>41</td>
+									<td>2012/10/13</td>
+									<td>$132,000</td>
+								</tr>
+								<tr>
+									<td>Dai Rios</td>
+									<td>Personnel Lead</td>
+									<td>Edinburgh</td>
+									<td>35</td>
+									<td>2012/09/26</td>
+									<td>$217,500</td>
+								</tr>
+								<tr>
+									<td>Jenette Caldwell</td>
+									<td>Development Lead</td>
+									<td>New York</td>
+									<td>30</td>
+									<td>2011/09/03</td>
+									<td>$345,000</td>
+								</tr>
+								<tr>
+									<td>Yuri Berry</td>
+									<td>Chief Marketing Officer (CMO)</td>
+									<td>New York</td>
+									<td>40</td>
+									<td>2009/06/25</td>
+									<td>$675,000</td>
+								</tr>
+								<tr>
+									<td>Caesar Vance</td>
+									<td>Pre-Sales Support</td>
+									<td>New York</td>
+									<td>21</td>
+									<td>2011/12/12</td>
+									<td>$106,450</td>
+								</tr>
+								<tr>
+									<td>Doris Wilder</td>
+									<td>Sales Assistant</td>
+									<td>Sidney</td>
+									<td>23</td>
+									<td>2010/09/20</td>
+									<td>$85,600</td>
+								</tr>
+								<tr>
+									<td>Angelica Ramos</td>
+									<td>Chief Executive Officer (CEO)</td>
+									<td>London</td>
+									<td>47</td>
+									<td>2009/10/09</td>
+									<td>$1,200,000</td>
+								</tr>
+								<tr>
+									<td>Gavin Joyce</td>
+									<td>Developer</td>
+									<td>Edinburgh</td>
+									<td>42</td>
+									<td>2010/12/22</td>
+									<td>$92,575</td>
+								</tr>
+								<tr>
+									<td>Jennifer Chang</td>
+									<td>Regional Director</td>
+									<td>Singapore</td>
+									<td>28</td>
+									<td>2010/11/14</td>
+									<td>$357,650</td>
+								</tr>
+								<tr>
+									<td>Brenden Wagner</td>
+									<td>Software Engineer</td>
+									<td>San Francisco</td>
+									<td>28</td>
+									<td>2011/06/07</td>
+									<td>$206,850</td>
+								</tr>
+								<tr>
+									<td>Fiona Green</td>
+									<td>Chief Operating Officer (COO)</td>
+									<td>San Francisco</td>
+									<td>48</td>
+									<td>2010/03/11</td>
+									<td>$850,000</td>
+								</tr>
+								<tr>
+									<td>Shou Itou</td>
+									<td>Regional Marketing</td>
+									<td>Tokyo</td>
+									<td>20</td>
+									<td>2011/08/14</td>
+									<td>$163,000</td>
+								</tr>
+								<tr>
+									<td>Michelle House</td>
+									<td>Integration Specialist</td>
+									<td>Sidney</td>
+									<td>37</td>
+									<td>2011/06/02</td>
+									<td>$95,400</td>
+								</tr>
+								<tr>
+									<td>Suki Burks</td>
+									<td>Developer</td>
+									<td>London</td>
+									<td>53</td>
+									<td>2009/10/22</td>
+									<td>$114,500</td>
+								</tr>
+								<tr>
+									<td>Prescott Bartlett</td>
+									<td>Technical Author</td>
+									<td>London</td>
+									<td>27</td>
+									<td>2011/05/07</td>
+									<td>$145,000</td>
+								</tr>
+								<tr>
+									<td>Gavin Cortez</td>
+									<td>Team Leader</td>
+									<td>San Francisco</td>
+									<td>22</td>
+									<td>2008/10/26</td>
+									<td>$235,500</td>
+								</tr>
+								<tr>
+									<td>Martena Mccray</td>
+									<td>Post-Sales support</td>
+									<td>Edinburgh</td>
+									<td>46</td>
+									<td>2011/03/09</td>
+									<td>$324,050</td>
+								</tr>
+								<tr>
+									<td>Unity Butler</td>
+									<td>Marketing Designer</td>
+									<td>San Francisco</td>
+									<td>47</td>
+									<td>2009/12/09</td>
+									<td>$85,675</td>
+								</tr>
+								<tr>
+									<td>Howard Hatfield</td>
+									<td>Office Manager</td>
+									<td>San Francisco</td>
+									<td>51</td>
+									<td>2008/12/16</td>
+									<td>$164,500</td>
+								</tr>
+								<tr>
+									<td>Hope Fuentes</td>
+									<td>Secretary</td>
+									<td>San Francisco</td>
+									<td>41</td>
+									<td>2010/02/12</td>
+									<td>$109,850</td>
+								</tr>
+								<tr>
+									<td>Vivian Harrell</td>
+									<td>Financial Controller</td>
+									<td>San Francisco</td>
+									<td>62</td>
+									<td>2009/02/14</td>
+									<td>$452,500</td>
+								</tr>
+								<tr>
+									<td>Timothy Mooney</td>
+									<td>Office Manager</td>
+									<td>London</td>
+									<td>37</td>
+									<td>2008/12/11</td>
+									<td>$136,200</td>
+								</tr>
+								<tr>
+									<td>Jackson Bradshaw</td>
+									<td>Director</td>
+									<td>New York</td>
+									<td>65</td>
+									<td>2008/09/26</td>
+									<td>$645,750</td>
+								</tr>
+								<tr>
+									<td>Olivia Liang</td>
+									<td>Support Engineer</td>
+									<td>Singapore</td>
+									<td>64</td>
+									<td>2011/02/03</td>
+									<td>$234,500</td>
+								</tr>
+								<tr>
+									<td>Bruno Nash</td>
+									<td>Software Engineer</td>
+									<td>London</td>
+									<td>38</td>
+									<td>2011/05/03</td>
+									<td>$163,500</td>
+								</tr>
+								<tr>
+									<td>Sakura Yamamoto</td>
+									<td>Support Engineer</td>
+									<td>Tokyo</td>
+									<td>37</td>
+									<td>2009/08/19</td>
+									<td>$139,575</td>
+								</tr>
+								<tr>
+									<td>Thor Walton</td>
+									<td>Developer</td>
+									<td>New York</td>
+									<td>61</td>
+									<td>2013/08/11</td>
+									<td>$98,540</td>
+								</tr>
+								<tr>
+									<td>Finn Camacho</td>
+									<td>Support Engineer</td>
+									<td>San Francisco</td>
+									<td>47</td>
+									<td>2009/07/07</td>
+									<td>$87,500</td>
+								</tr>
+								<tr>
+									<td>Serge Baldwin</td>
+									<td>Data Coordinator</td>
+									<td>Singapore</td>
+									<td>64</td>
+									<td>2012/04/09</td>
+									<td>$138,575</td>
+								</tr>
+								<tr>
+									<td>Zenaida Frank</td>
+									<td>Software Engineer</td>
+									<td>New York</td>
+									<td>63</td>
+									<td>2010/01/04</td>
+									<td>$125,250</td>
+								</tr>
+								<tr>
+									<td>Zorita Serrano</td>
+									<td>Software Engineer</td>
+									<td>San Francisco</td>
+									<td>56</td>
+									<td>2012/06/01</td>
+									<td>$115,000</td>
+								</tr>
+								<tr>
+									<td>Jennifer Acosta</td>
+									<td>Junior Javascript Developer</td>
+									<td>Edinburgh</td>
+									<td>43</td>
+									<td>2013/02/01</td>
+									<td>$75,650</td>
+								</tr>
+								<tr>
+									<td>Cara Stevens</td>
+									<td>Sales Assistant</td>
+									<td>New York</td>
+									<td>46</td>
+									<td>2011/12/06</td>
+									<td>$145,600</td>
+								</tr>
+								<tr>
+									<td>Hermione Butler</td>
+									<td>Regional Director</td>
+									<td>London</td>
+									<td>47</td>
+									<td>2011/03/21</td>
+									<td>$356,250</td>
+								</tr>
+								<tr>
+									<td>Lael Greer</td>
+									<td>Systems Administrator</td>
+									<td>London</td>
+									<td>21</td>
+									<td>2009/02/27</td>
+									<td>$103,500</td>
+								</tr>
+								<tr>
+									<td>Jonas Alexander</td>
+									<td>Developer</td>
+									<td>San Francisco</td>
+									<td>30</td>
+									<td>2010/07/14</td>
+									<td>$86,500</td>
+								</tr>
+								<tr>
+									<td>Shad Decker</td>
+									<td>Regional Director</td>
+									<td>Edinburgh</td>
+									<td>51</td>
+									<td>2008/11/13</td>
+									<td>$183,000</td>
+								</tr>
+								<tr>
+									<td>Michael Bruce</td>
+									<td>Javascript Developer</td>
+									<td>Singapore</td>
+									<td>29</td>
+									<td>2011/06/27</td>
+									<td>$183,000</td>
+								</tr>
+								<tr>
+									<td>Donna Snider</td>
+									<td>Customer Support</td>
+									<td>New York</td>
+									<td>27</td>
+									<td>2011/01/25</td>
+									<td>$112,000</td>
+								</tr>
+							</tbody>
+							<tfoot>
+								<tr>
+									<th>Name</th>
+									<th>Position</th>
+									<th>Office</th>
+									<th>Age</th>
+									<th>Start date</th>
+									<th>Salary</th>
+								</tr>
+							</tfoot>
+						</table>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!--/ Dynamic text table -->
+
+<!-- Adding and removing buttons dynamically table -->
+<section id="add-remove">
+	<div class="row">
+		<div class="col-xs-12">
+			<div class="card">
+				<div class="card-header">
+					<h4 class="card-title">Adding and removing buttons dynamically</h4>
+					<a class="heading-elements-toggle"><i class="fa fa-ellipsis-v font-medium-3"></i></a>
+					<div class="heading-elements">
+						<ul class="list-inline mb-0">
+							<li><a data-action="collapse"><i class="ft-minus"></i></a></li>
+							<li><a data-action="reload"><i class="ft-rotate-cw"></i></a></li>
+							<li><a data-action="expand"><i class="ft-maximize"></i></a></li>
+							<li><a data-action="close"><i class="ft-x"></i></a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="card-body collapse in">
+					<div class="card-block card-dashboard">
+						<p>The button().add() and button().remove() methods provide the ability to dynamically add and remove buttons from the list. The button().add() method takes two parameters: firstly the insertion point for where the new button should appear, and secondly a button definition (which can be an object, a string or a function) and displays that button.
+						</p>
+						<table class="table table-striped table-bordered dataex-aip-dynamically">
+							<thead>
+								<tr>
+									<th>Name</th>
+									<th>Position</th>
+									<th>Office</th>
+									<th>Age</th>
+									<th>Start date</th>
+									<th>Salary</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>Tiger Nixon</td>
+									<td>System Architect</td>
+									<td>Edinburgh</td>
+									<td>61</td>
+									<td>2011/04/25</td>
+									<td>$320,800</td>
+								</tr>
+								<tr>
+									<td>Garrett Winters</td>
+									<td>Accountant</td>
+									<td>Tokyo</td>
+									<td>63</td>
+									<td>2011/07/25</td>
+									<td>$170,750</td>
+								</tr>
+								<tr>
+									<td>Ashton Cox</td>
+									<td>Junior Technical Author</td>
+									<td>San Francisco</td>
+									<td>66</td>
+									<td>2009/01/12</td>
+									<td>$86,000</td>
+								</tr>
+								<tr>
+									<td>Cedric Kelly</td>
+									<td>Senior Javascript Developer</td>
+									<td>Edinburgh</td>
+									<td>22</td>
+									<td>2012/03/29</td>
+									<td>$433,060</td>
+								</tr>
+								<tr>
+									<td>Airi Satou</td>
+									<td>Accountant</td>
+									<td>Tokyo</td>
+									<td>33</td>
+									<td>2008/11/28</td>
+									<td>$162,700</td>
+								</tr>
+								<tr>
+									<td>Brielle Williamson</td>
+									<td>Integration Specialist</td>
+									<td>New York</td>
+									<td>61</td>
+									<td>2012/12/02</td>
+									<td>$372,000</td>
+								</tr>
+								<tr>
+									<td>Herrod Chandler</td>
+									<td>Sales Assistant</td>
+									<td>San Francisco</td>
+									<td>59</td>
+									<td>2012/08/06</td>
+									<td>$137,500</td>
+								</tr>
+								<tr>
+									<td>Rhona Davidson</td>
+									<td>Integration Specialist</td>
+									<td>Tokyo</td>
+									<td>55</td>
+									<td>2010/10/14</td>
+									<td>$327,900</td>
+								</tr>
+								<tr>
+									<td>Colleen Hurst</td>
+									<td>Javascript Developer</td>
+									<td>San Francisco</td>
+									<td>39</td>
+									<td>2009/09/15</td>
+									<td>$205,500</td>
+								</tr>
+								<tr>
+									<td>Sonya Frost</td>
+									<td>Software Engineer</td>
+									<td>Edinburgh</td>
+									<td>23</td>
+									<td>2008/12/13</td>
+									<td>$103,600</td>
+								</tr>
+								<tr>
+									<td>Jena Gaines</td>
+									<td>Office Manager</td>
+									<td>London</td>
+									<td>30</td>
+									<td>2008/12/19</td>
+									<td>$90,560</td>
+								</tr>
+								<tr>
+									<td>Quinn Flynn</td>
+									<td>Support Lead</td>
+									<td>Edinburgh</td>
+									<td>22</td>
+									<td>2013/03/03</td>
+									<td>$342,000</td>
+								</tr>
+								<tr>
+									<td>Charde Marshall</td>
+									<td>Regional Director</td>
+									<td>San Francisco</td>
+									<td>36</td>
+									<td>2008/10/16</td>
+									<td>$470,600</td>
+								</tr>
+								<tr>
+									<td>Haley Kennedy</td>
+									<td>Senior Marketing Designer</td>
+									<td>London</td>
+									<td>43</td>
+									<td>2012/12/18</td>
+									<td>$313,500</td>
+								</tr>
+								<tr>
+									<td>Tatyana Fitzpatrick</td>
+									<td>Regional Director</td>
+									<td>London</td>
+									<td>19</td>
+									<td>2010/03/17</td>
+									<td>$385,750</td>
+								</tr>
+								<tr>
+									<td>Michael Silva</td>
+									<td>Marketing Designer</td>
+									<td>London</td>
+									<td>66</td>
+									<td>2012/11/27</td>
+									<td>$198,500</td>
+								</tr>
+								<tr>
+									<td>Paul Byrd</td>
+									<td>Chief Financial Officer (CFO)</td>
+									<td>New York</td>
+									<td>64</td>
+									<td>2010/06/09</td>
+									<td>$725,000</td>
+								</tr>
+								<tr>
+									<td>Gloria Little</td>
+									<td>Systems Administrator</td>
+									<td>New York</td>
+									<td>59</td>
+									<td>2009/04/10</td>
+									<td>$237,500</td>
+								</tr>
+								<tr>
+									<td>Bradley Greer</td>
+									<td>Software Engineer</td>
+									<td>London</td>
+									<td>41</td>
+									<td>2012/10/13</td>
+									<td>$132,000</td>
+								</tr>
+								<tr>
+									<td>Dai Rios</td>
+									<td>Personnel Lead</td>
+									<td>Edinburgh</td>
+									<td>35</td>
+									<td>2012/09/26</td>
+									<td>$217,500</td>
+								</tr>
+								<tr>
+									<td>Jenette Caldwell</td>
+									<td>Development Lead</td>
+									<td>New York</td>
+									<td>30</td>
+									<td>2011/09/03</td>
+									<td>$345,000</td>
+								</tr>
+								<tr>
+									<td>Yuri Berry</td>
+									<td>Chief Marketing Officer (CMO)</td>
+									<td>New York</td>
+									<td>40</td>
+									<td>2009/06/25</td>
+									<td>$675,000</td>
+								</tr>
+								<tr>
+									<td>Caesar Vance</td>
+									<td>Pre-Sales Support</td>
+									<td>New York</td>
+									<td>21</td>
+									<td>2011/12/12</td>
+									<td>$106,450</td>
+								</tr>
+								<tr>
+									<td>Doris Wilder</td>
+									<td>Sales Assistant</td>
+									<td>Sidney</td>
+									<td>23</td>
+									<td>2010/09/20</td>
+									<td>$85,600</td>
+								</tr>
+								<tr>
+									<td>Angelica Ramos</td>
+									<td>Chief Executive Officer (CEO)</td>
+									<td>London</td>
+									<td>47</td>
+									<td>2009/10/09</td>
+									<td>$1,200,000</td>
+								</tr>
+								<tr>
+									<td>Gavin Joyce</td>
+									<td>Developer</td>
+									<td>Edinburgh</td>
+									<td>42</td>
+									<td>2010/12/22</td>
+									<td>$92,575</td>
+								</tr>
+								<tr>
+									<td>Jennifer Chang</td>
+									<td>Regional Director</td>
+									<td>Singapore</td>
+									<td>28</td>
+									<td>2010/11/14</td>
+									<td>$357,650</td>
+								</tr>
+								<tr>
+									<td>Brenden Wagner</td>
+									<td>Software Engineer</td>
+									<td>San Francisco</td>
+									<td>28</td>
+									<td>2011/06/07</td>
+									<td>$206,850</td>
+								</tr>
+								<tr>
+									<td>Fiona Green</td>
+									<td>Chief Operating Officer (COO)</td>
+									<td>San Francisco</td>
+									<td>48</td>
+									<td>2010/03/11</td>
+									<td>$850,000</td>
+								</tr>
+								<tr>
+									<td>Shou Itou</td>
+									<td>Regional Marketing</td>
+									<td>Tokyo</td>
+									<td>20</td>
+									<td>2011/08/14</td>
+									<td>$163,000</td>
+								</tr>
+								<tr>
+									<td>Michelle House</td>
+									<td>Integration Specialist</td>
+									<td>Sidney</td>
+									<td>37</td>
+									<td>2011/06/02</td>
+									<td>$95,400</td>
+								</tr>
+								<tr>
+									<td>Suki Burks</td>
+									<td>Developer</td>
+									<td>London</td>
+									<td>53</td>
+									<td>2009/10/22</td>
+									<td>$114,500</td>
+								</tr>
+								<tr>
+									<td>Prescott Bartlett</td>
+									<td>Technical Author</td>
+									<td>London</td>
+									<td>27</td>
+									<td>2011/05/07</td>
+									<td>$145,000</td>
+								</tr>
+								<tr>
+									<td>Gavin Cortez</td>
+									<td>Team Leader</td>
+									<td>San Francisco</td>
+									<td>22</td>
+									<td>2008/10/26</td>
+									<td>$235,500</td>
+								</tr>
+								<tr>
+									<td>Martena Mccray</td>
+									<td>Post-Sales support</td>
+									<td>Edinburgh</td>
+									<td>46</td>
+									<td>2011/03/09</td>
+									<td>$324,050</td>
+								</tr>
+								<tr>
+									<td>Unity Butler</td>
+									<td>Marketing Designer</td>
+									<td>San Francisco</td>
+									<td>47</td>
+									<td>2009/12/09</td>
+									<td>$85,675</td>
+								</tr>
+								<tr>
+									<td>Howard Hatfield</td>
+									<td>Office Manager</td>
+									<td>San Francisco</td>
+									<td>51</td>
+									<td>2008/12/16</td>
+									<td>$164,500</td>
+								</tr>
+								<tr>
+									<td>Hope Fuentes</td>
+									<td>Secretary</td>
+									<td>San Francisco</td>
+									<td>41</td>
+									<td>2010/02/12</td>
+									<td>$109,850</td>
+								</tr>
+								<tr>
+									<td>Vivian Harrell</td>
+									<td>Financial Controller</td>
+									<td>San Francisco</td>
+									<td>62</td>
+									<td>2009/02/14</td>
+									<td>$452,500</td>
+								</tr>
+								<tr>
+									<td>Timothy Mooney</td>
+									<td>Office Manager</td>
+									<td>London</td>
+									<td>37</td>
+									<td>2008/12/11</td>
+									<td>$136,200</td>
+								</tr>
+								<tr>
+									<td>Jackson Bradshaw</td>
+									<td>Director</td>
+									<td>New York</td>
+									<td>65</td>
+									<td>2008/09/26</td>
+									<td>$645,750</td>
+								</tr>
+								<tr>
+									<td>Olivia Liang</td>
+									<td>Support Engineer</td>
+									<td>Singapore</td>
+									<td>64</td>
+									<td>2011/02/03</td>
+									<td>$234,500</td>
+								</tr>
+								<tr>
+									<td>Bruno Nash</td>
+									<td>Software Engineer</td>
+									<td>London</td>
+									<td>38</td>
+									<td>2011/05/03</td>
+									<td>$163,500</td>
+								</tr>
+								<tr>
+									<td>Sakura Yamamoto</td>
+									<td>Support Engineer</td>
+									<td>Tokyo</td>
+									<td>37</td>
+									<td>2009/08/19</td>
+									<td>$139,575</td>
+								</tr>
+								<tr>
+									<td>Thor Walton</td>
+									<td>Developer</td>
+									<td>New York</td>
+									<td>61</td>
+									<td>2013/08/11</td>
+									<td>$98,540</td>
+								</tr>
+								<tr>
+									<td>Finn Camacho</td>
+									<td>Support Engineer</td>
+									<td>San Francisco</td>
+									<td>47</td>
+									<td>2009/07/07</td>
+									<td>$87,500</td>
+								</tr>
+								<tr>
+									<td>Serge Baldwin</td>
+									<td>Data Coordinator</td>
+									<td>Singapore</td>
+									<td>64</td>
+									<td>2012/04/09</td>
+									<td>$138,575</td>
+								</tr>
+								<tr>
+									<td>Zenaida Frank</td>
+									<td>Software Engineer</td>
+									<td>New York</td>
+									<td>63</td>
+									<td>2010/01/04</td>
+									<td>$125,250</td>
+								</tr>
+								<tr>
+									<td>Zorita Serrano</td>
+									<td>Software Engineer</td>
+									<td>San Francisco</td>
+									<td>56</td>
+									<td>2012/06/01</td>
+									<td>$115,000</td>
+								</tr>
+								<tr>
+									<td>Jennifer Acosta</td>
+									<td>Junior Javascript Developer</td>
+									<td>Edinburgh</td>
+									<td>43</td>
+									<td>2013/02/01</td>
+									<td>$75,650</td>
+								</tr>
+								<tr>
+									<td>Cara Stevens</td>
+									<td>Sales Assistant</td>
+									<td>New York</td>
+									<td>46</td>
+									<td>2011/12/06</td>
+									<td>$145,600</td>
+								</tr>
+								<tr>
+									<td>Hermione Butler</td>
+									<td>Regional Director</td>
+									<td>London</td>
+									<td>47</td>
+									<td>2011/03/21</td>
+									<td>$356,250</td>
+								</tr>
+								<tr>
+									<td>Lael Greer</td>
+									<td>Systems Administrator</td>
+									<td>London</td>
+									<td>21</td>
+									<td>2009/02/27</td>
+									<td>$103,500</td>
+								</tr>
+								<tr>
+									<td>Jonas Alexander</td>
+									<td>Developer</td>
+									<td>San Francisco</td>
+									<td>30</td>
+									<td>2010/07/14</td>
+									<td>$86,500</td>
+								</tr>
+								<tr>
+									<td>Shad Decker</td>
+									<td>Regional Director</td>
+									<td>Edinburgh</td>
+									<td>51</td>
+									<td>2008/11/13</td>
+									<td>$183,000</td>
+								</tr>
+								<tr>
+									<td>Michael Bruce</td>
+									<td>Javascript Developer</td>
+									<td>Singapore</td>
+									<td>29</td>
+									<td>2011/06/27</td>
+									<td>$183,000</td>
+								</tr>
+								<tr>
+									<td>Donna Snider</td>
+									<td>Customer Support</td>
+									<td>New York</td>
+									<td>27</td>
+									<td>2011/01/25</td>
+									<td>$112,000</td>
+								</tr>
+							</tbody>
+							<tfoot>
+								<tr>
+									<th>Name</th>
+									<th>Position</th>
+									<th>Office</th>
+									<th>Age</th>
+									<th>Start date</th>
+									<th>Salary</th>
+								</tr>
+							</tfoot>
+						</table>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!--/ Adding and removing buttons dynamically table -->
+
+<!-- Group selection table -->
+<section id="group-selection">
+	<div class="row">
+		<div class="col-xs-12">
+			<div class="card">
+				<div class="card-header">
+					<h4 class="card-title">Group selection</h4>
+					<a class="heading-elements-toggle"><i class="fa fa-ellipsis-v font-medium-3"></i></a>
+					<div class="heading-elements">
+						<ul class="list-inline mb-0">
+							<li><a data-action="collapse"><i class="ft-minus"></i></a></li>
+							<li><a data-action="reload"><i class="ft-rotate-cw"></i></a></li>
+							<li><a data-action="expand"><i class="ft-maximize"></i></a></li>
+							<li><a data-action="close"><i class="ft-x"></i></a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="card-body collapse in">
+					<div class="card-block card-dashboard">
+						<p>Multiple button sets can coexist together sharing the same DataTable as a host. When using the API you need the ability to select one, or more, of those groups, and thus the buttons in them to be able to take whatever action is required. This is provided through the button-group-selector data type of the button() and buttons() methods.
+						</p>
+						<table class="table table-striped table-bordered dataex-aip-group">
+							<thead>
+								<tr>
+									<th>Name</th>
+									<th>Position</th>
+									<th>Office</th>
+									<th>Age</th>
+									<th>Start date</th>
+									<th>Salary</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>Tiger Nixon</td>
+									<td>System Architect</td>
+									<td>Edinburgh</td>
+									<td>61</td>
+									<td>2011/04/25</td>
+									<td>$320,800</td>
+								</tr>
+								<tr>
+									<td>Garrett Winters</td>
+									<td>Accountant</td>
+									<td>Tokyo</td>
+									<td>63</td>
+									<td>2011/07/25</td>
+									<td>$170,750</td>
+								</tr>
+								<tr>
+									<td>Ashton Cox</td>
+									<td>Junior Technical Author</td>
+									<td>San Francisco</td>
+									<td>66</td>
+									<td>2009/01/12</td>
+									<td>$86,000</td>
+								</tr>
+								<tr>
+									<td>Cedric Kelly</td>
+									<td>Senior Javascript Developer</td>
+									<td>Edinburgh</td>
+									<td>22</td>
+									<td>2012/03/29</td>
+									<td>$433,060</td>
+								</tr>
+								<tr>
+									<td>Airi Satou</td>
+									<td>Accountant</td>
+									<td>Tokyo</td>
+									<td>33</td>
+									<td>2008/11/28</td>
+									<td>$162,700</td>
+								</tr>
+								<tr>
+									<td>Brielle Williamson</td>
+									<td>Integration Specialist</td>
+									<td>New York</td>
+									<td>61</td>
+									<td>2012/12/02</td>
+									<td>$372,000</td>
+								</tr>
+								<tr>
+									<td>Herrod Chandler</td>
+									<td>Sales Assistant</td>
+									<td>San Francisco</td>
+									<td>59</td>
+									<td>2012/08/06</td>
+									<td>$137,500</td>
+								</tr>
+								<tr>
+									<td>Rhona Davidson</td>
+									<td>Integration Specialist</td>
+									<td>Tokyo</td>
+									<td>55</td>
+									<td>2010/10/14</td>
+									<td>$327,900</td>
+								</tr>
+								<tr>
+									<td>Colleen Hurst</td>
+									<td>Javascript Developer</td>
+									<td>San Francisco</td>
+									<td>39</td>
+									<td>2009/09/15</td>
+									<td>$205,500</td>
+								</tr>
+								<tr>
+									<td>Sonya Frost</td>
+									<td>Software Engineer</td>
+									<td>Edinburgh</td>
+									<td>23</td>
+									<td>2008/12/13</td>
+									<td>$103,600</td>
+								</tr>
+								<tr>
+									<td>Jena Gaines</td>
+									<td>Office Manager</td>
+									<td>London</td>
+									<td>30</td>
+									<td>2008/12/19</td>
+									<td>$90,560</td>
+								</tr>
+								<tr>
+									<td>Quinn Flynn</td>
+									<td>Support Lead</td>
+									<td>Edinburgh</td>
+									<td>22</td>
+									<td>2013/03/03</td>
+									<td>$342,000</td>
+								</tr>
+								<tr>
+									<td>Charde Marshall</td>
+									<td>Regional Director</td>
+									<td>San Francisco</td>
+									<td>36</td>
+									<td>2008/10/16</td>
+									<td>$470,600</td>
+								</tr>
+								<tr>
+									<td>Haley Kennedy</td>
+									<td>Senior Marketing Designer</td>
+									<td>London</td>
+									<td>43</td>
+									<td>2012/12/18</td>
+									<td>$313,500</td>
+								</tr>
+								<tr>
+									<td>Tatyana Fitzpatrick</td>
+									<td>Regional Director</td>
+									<td>London</td>
+									<td>19</td>
+									<td>2010/03/17</td>
+									<td>$385,750</td>
+								</tr>
+								<tr>
+									<td>Michael Silva</td>
+									<td>Marketing Designer</td>
+									<td>London</td>
+									<td>66</td>
+									<td>2012/11/27</td>
+									<td>$198,500</td>
+								</tr>
+								<tr>
+									<td>Paul Byrd</td>
+									<td>Chief Financial Officer (CFO)</td>
+									<td>New York</td>
+									<td>64</td>
+									<td>2010/06/09</td>
+									<td>$725,000</td>
+								</tr>
+								<tr>
+									<td>Gloria Little</td>
+									<td>Systems Administrator</td>
+									<td>New York</td>
+									<td>59</td>
+									<td>2009/04/10</td>
+									<td>$237,500</td>
+								</tr>
+								<tr>
+									<td>Bradley Greer</td>
+									<td>Software Engineer</td>
+									<td>London</td>
+									<td>41</td>
+									<td>2012/10/13</td>
+									<td>$132,000</td>
+								</tr>
+								<tr>
+									<td>Dai Rios</td>
+									<td>Personnel Lead</td>
+									<td>Edinburgh</td>
+									<td>35</td>
+									<td>2012/09/26</td>
+									<td>$217,500</td>
+								</tr>
+								<tr>
+									<td>Jenette Caldwell</td>
+									<td>Development Lead</td>
+									<td>New York</td>
+									<td>30</td>
+									<td>2011/09/03</td>
+									<td>$345,000</td>
+								</tr>
+								<tr>
+									<td>Yuri Berry</td>
+									<td>Chief Marketing Officer (CMO)</td>
+									<td>New York</td>
+									<td>40</td>
+									<td>2009/06/25</td>
+									<td>$675,000</td>
+								</tr>
+								<tr>
+									<td>Caesar Vance</td>
+									<td>Pre-Sales Support</td>
+									<td>New York</td>
+									<td>21</td>
+									<td>2011/12/12</td>
+									<td>$106,450</td>
+								</tr>
+								<tr>
+									<td>Doris Wilder</td>
+									<td>Sales Assistant</td>
+									<td>Sidney</td>
+									<td>23</td>
+									<td>2010/09/20</td>
+									<td>$85,600</td>
+								</tr>
+								<tr>
+									<td>Angelica Ramos</td>
+									<td>Chief Executive Officer (CEO)</td>
+									<td>London</td>
+									<td>47</td>
+									<td>2009/10/09</td>
+									<td>$1,200,000</td>
+								</tr>
+								<tr>
+									<td>Gavin Joyce</td>
+									<td>Developer</td>
+									<td>Edinburgh</td>
+									<td>42</td>
+									<td>2010/12/22</td>
+									<td>$92,575</td>
+								</tr>
+								<tr>
+									<td>Jennifer Chang</td>
+									<td>Regional Director</td>
+									<td>Singapore</td>
+									<td>28</td>
+									<td>2010/11/14</td>
+									<td>$357,650</td>
+								</tr>
+								<tr>
+									<td>Brenden Wagner</td>
+									<td>Software Engineer</td>
+									<td>San Francisco</td>
+									<td>28</td>
+									<td>2011/06/07</td>
+									<td>$206,850</td>
+								</tr>
+								<tr>
+									<td>Fiona Green</td>
+									<td>Chief Operating Officer (COO)</td>
+									<td>San Francisco</td>
+									<td>48</td>
+									<td>2010/03/11</td>
+									<td>$850,000</td>
+								</tr>
+								<tr>
+									<td>Shou Itou</td>
+									<td>Regional Marketing</td>
+									<td>Tokyo</td>
+									<td>20</td>
+									<td>2011/08/14</td>
+									<td>$163,000</td>
+								</tr>
+								<tr>
+									<td>Michelle House</td>
+									<td>Integration Specialist</td>
+									<td>Sidney</td>
+									<td>37</td>
+									<td>2011/06/02</td>
+									<td>$95,400</td>
+								</tr>
+								<tr>
+									<td>Suki Burks</td>
+									<td>Developer</td>
+									<td>London</td>
+									<td>53</td>
+									<td>2009/10/22</td>
+									<td>$114,500</td>
+								</tr>
+								<tr>
+									<td>Prescott Bartlett</td>
+									<td>Technical Author</td>
+									<td>London</td>
+									<td>27</td>
+									<td>2011/05/07</td>
+									<td>$145,000</td>
+								</tr>
+								<tr>
+									<td>Gavin Cortez</td>
+									<td>Team Leader</td>
+									<td>San Francisco</td>
+									<td>22</td>
+									<td>2008/10/26</td>
+									<td>$235,500</td>
+								</tr>
+								<tr>
+									<td>Martena Mccray</td>
+									<td>Post-Sales support</td>
+									<td>Edinburgh</td>
+									<td>46</td>
+									<td>2011/03/09</td>
+									<td>$324,050</td>
+								</tr>
+								<tr>
+									<td>Unity Butler</td>
+									<td>Marketing Designer</td>
+									<td>San Francisco</td>
+									<td>47</td>
+									<td>2009/12/09</td>
+									<td>$85,675</td>
+								</tr>
+								<tr>
+									<td>Howard Hatfield</td>
+									<td>Office Manager</td>
+									<td>San Francisco</td>
+									<td>51</td>
+									<td>2008/12/16</td>
+									<td>$164,500</td>
+								</tr>
+								<tr>
+									<td>Hope Fuentes</td>
+									<td>Secretary</td>
+									<td>San Francisco</td>
+									<td>41</td>
+									<td>2010/02/12</td>
+									<td>$109,850</td>
+								</tr>
+								<tr>
+									<td>Vivian Harrell</td>
+									<td>Financial Controller</td>
+									<td>San Francisco</td>
+									<td>62</td>
+									<td>2009/02/14</td>
+									<td>$452,500</td>
+								</tr>
+								<tr>
+									<td>Timothy Mooney</td>
+									<td>Office Manager</td>
+									<td>London</td>
+									<td>37</td>
+									<td>2008/12/11</td>
+									<td>$136,200</td>
+								</tr>
+								<tr>
+									<td>Jackson Bradshaw</td>
+									<td>Director</td>
+									<td>New York</td>
+									<td>65</td>
+									<td>2008/09/26</td>
+									<td>$645,750</td>
+								</tr>
+								<tr>
+									<td>Olivia Liang</td>
+									<td>Support Engineer</td>
+									<td>Singapore</td>
+									<td>64</td>
+									<td>2011/02/03</td>
+									<td>$234,500</td>
+								</tr>
+								<tr>
+									<td>Bruno Nash</td>
+									<td>Software Engineer</td>
+									<td>London</td>
+									<td>38</td>
+									<td>2011/05/03</td>
+									<td>$163,500</td>
+								</tr>
+								<tr>
+									<td>Sakura Yamamoto</td>
+									<td>Support Engineer</td>
+									<td>Tokyo</td>
+									<td>37</td>
+									<td>2009/08/19</td>
+									<td>$139,575</td>
+								</tr>
+								<tr>
+									<td>Thor Walton</td>
+									<td>Developer</td>
+									<td>New York</td>
+									<td>61</td>
+									<td>2013/08/11</td>
+									<td>$98,540</td>
+								</tr>
+								<tr>
+									<td>Finn Camacho</td>
+									<td>Support Engineer</td>
+									<td>San Francisco</td>
+									<td>47</td>
+									<td>2009/07/07</td>
+									<td>$87,500</td>
+								</tr>
+								<tr>
+									<td>Serge Baldwin</td>
+									<td>Data Coordinator</td>
+									<td>Singapore</td>
+									<td>64</td>
+									<td>2012/04/09</td>
+									<td>$138,575</td>
+								</tr>
+								<tr>
+									<td>Zenaida Frank</td>
+									<td>Software Engineer</td>
+									<td>New York</td>
+									<td>63</td>
+									<td>2010/01/04</td>
+									<td>$125,250</td>
+								</tr>
+								<tr>
+									<td>Zorita Serrano</td>
+									<td>Software Engineer</td>
+									<td>San Francisco</td>
+									<td>56</td>
+									<td>2012/06/01</td>
+									<td>$115,000</td>
+								</tr>
+								<tr>
+									<td>Jennifer Acosta</td>
+									<td>Junior Javascript Developer</td>
+									<td>Edinburgh</td>
+									<td>43</td>
+									<td>2013/02/01</td>
+									<td>$75,650</td>
+								</tr>
+								<tr>
+									<td>Cara Stevens</td>
+									<td>Sales Assistant</td>
+									<td>New York</td>
+									<td>46</td>
+									<td>2011/12/06</td>
+									<td>$145,600</td>
+								</tr>
+								<tr>
+									<td>Hermione Butler</td>
+									<td>Regional Director</td>
+									<td>London</td>
+									<td>47</td>
+									<td>2011/03/21</td>
+									<td>$356,250</td>
+								</tr>
+								<tr>
+									<td>Lael Greer</td>
+									<td>Systems Administrator</td>
+									<td>London</td>
+									<td>21</td>
+									<td>2009/02/27</td>
+									<td>$103,500</td>
+								</tr>
+								<tr>
+									<td>Jonas Alexander</td>
+									<td>Developer</td>
+									<td>San Francisco</td>
+									<td>30</td>
+									<td>2010/07/14</td>
+									<td>$86,500</td>
+								</tr>
+								<tr>
+									<td>Shad Decker</td>
+									<td>Regional Director</td>
+									<td>Edinburgh</td>
+									<td>51</td>
+									<td>2008/11/13</td>
+									<td>$183,000</td>
+								</tr>
+								<tr>
+									<td>Michael Bruce</td>
+									<td>Javascript Developer</td>
+									<td>Singapore</td>
+									<td>29</td>
+									<td>2011/06/27</td>
+									<td>$183,000</td>
+								</tr>
+								<tr>
+									<td>Donna Snider</td>
+									<td>Customer Support</td>
+									<td>New York</td>
+									<td>27</td>
+									<td>2011/01/25</td>
+									<td>$112,000</td>
+								</tr>
+							</tbody>
+							<tfoot>
+								<tr>
+									<th>Name</th>
+									<th>Position</th>
+									<th>Office</th>
+									<th>Age</th>
+									<th>Start date</th>
+									<th>Salary</th>
+								</tr>
+							</tfoot>
+						</table>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!--/ Group selection table -->
+        </div>
+      </div>
+    </div>
+    <!-- ////////////////////////////////////////////////////////////////////////////-->
+
+    <div class="customizer border-left-blue-grey border-left-lighten-4 hidden-lg-down"><a href="#" class="customizer-close"><i class="ft-x font-medium-3"></i></a><a href="#" class="customizer-toggle bg-danger"><i class="ft-settings font-medium-3 fa-spin fa fa-spin fa-fw white"></i></a><div class="customizer-content p-2">
+	<h4 class="text-uppercase mb-0">Theme Customizer</h4>
+	<hr>
+	<p>Customize & Preview in Real Time</p>
+	<h5 class="mt-1">Layout Options</h5>
+	<ul class="nav nav-tabs nav-underline nav-justified layout-options">
+		<li class="nav-item">
+			<a class="nav-link layouts active" id="baseIcon-tab21" data-toggle="tab" aria-controls="tabIcon21" href="#tabIcon21" aria-expanded="true">Layouts</a>
+		</li>
+		<li class="nav-item">
+			<a class="nav-link navigation" id="baseIcon-tab22" data-toggle="tab" aria-controls="tabIcon22" href="#tabIcon22" aria-expanded="false">Navigation</a>
+		</li>
+		<li class="nav-item">
+			<a class="nav-link navbar" id="baseIcon-tab23" data-toggle="tab" aria-controls="tabIcon23" href="#tabIcon23" aria-expanded="false">Navbar</a>
+		</li>
+	</ul>
+	<div class="tab-content px-1 pt-1">
+		<div role="tabpanel" class="tab-pane active" id="tabIcon21" aria-expanded="true" aria-labelledby="baseIcon-tab21">
+			<p>
+				<label class="display-inline-block custom-control custom-checkbox">
+					<input type="checkbox" name="collapsed-sidebar" id="collapsed-sidebar" class="custom-control-input">
+					<span class="c-indicator bg-primary custom-control-indicator"></span>
+					<span class="custom-control-description">Collapsed Menu</span>
+				</label>
+			</p>
+			<p>
+				<label class="display-inline-block custom-control custom-checkbox">
+					<input type="checkbox" name="fixed-layout" id="fixed-layout" class="custom-control-input">
+					<span class="c-indicator bg-primary custom-control-indicator"></span>
+					<span class="custom-control-description">Fixed Layout</span>
+				</label>
+			</p>
+			<p>
+				<label class="display-inline-block custom-control custom-checkbox">
+					<input type="checkbox" name="boxed-layout" id="boxed-layout" class="custom-control-input">
+					<span class="c-indicator bg-primary custom-control-indicator"></span>
+					<span class="custom-control-description">Boxed Layout</span>
+				</label>
+			</p>
+			<p>
+				<label class="display-inline-block custom-control custom-checkbox">
+					<input type="checkbox" name="static-layout" id="static-layout" class="custom-control-input">
+					<span class="c-indicator bg-primary custom-control-indicator"></span>
+					<span class="custom-control-description">Static Layout</span>
+				</label>
+			</p>
+		</div>
+		<div class="tab-pane" id="tabIcon22" aria-labelledby="baseIcon-tab22">
+			<p>
+				<label class="display-inline-block custom-control custom-checkbox">
+					<input type="checkbox" name="native-scroll" id="native-scroll" class="custom-control-input">
+					<span class="c-indicator bg-primary custom-control-indicator"></span>
+					<span class="custom-control-description">Native Scroll</span>
+				</label>
+			</p>
+			<p>
+				<label class="display-inline-block custom-control custom-checkbox">
+					<input type="checkbox" name="right-side-icons" id="right-side-icons" class="custom-control-input">
+					<span class="c-indicator bg-primary custom-control-indicator"></span>
+					<span class="custom-control-description">Right Side Icons</span>
+				</label>
+			</p>
+			<p>
+				<label class="display-inline-block custom-control custom-checkbox">
+					<input type="checkbox" name="bordered-navigation" id="bordered-navigation" class="custom-control-input">
+					<span class="c-indicator bg-primary custom-control-indicator"></span>
+					<span class="custom-control-description">Bordered Navigation</span>
+				</label>
+			</p>
+			<p>
+				<label class="display-inline-block custom-control custom-checkbox">
+					<input type="checkbox" name="flipped-navigation" id="flipped-navigation" class="custom-control-input">
+					<span class="c-indicator bg-primary custom-control-indicator"></span>
+					<span class="custom-control-description">Flipped Navigation</span>
+				</label>
+			</p>
+			<p>
+				<label class="display-inline-block custom-control custom-checkbox">
+					<input type="checkbox" name="collapsible-navigation" id="collapsible-navigation" class="custom-control-input">
+					<span class="c-indicator bg-primary custom-control-indicator"></span>
+					<span class="custom-control-description">Collapsible Navigation</span>
+				</label>
+			</p>
+			<p>
+				<label class="display-inline-block custom-control custom-checkbox">
+					<input type="checkbox" name="static-navigation" id="static-navigation" class="custom-control-input">
+					<span class="c-indicator bg-primary custom-control-indicator"></span>
+					<span class="custom-control-description">Static Navigation</span>
+				</label>
+			</p>
+		</div>
+		<div class="tab-pane" id="tabIcon23" aria-labelledby="baseIcon-tab23">
+			<p>
+				<label class="display-inline-block custom-control custom-checkbox">
+					<input type="checkbox" name="brand-center" id="brand-center" class="custom-control-input">
+					<span class="c-indicator bg-primary custom-control-indicator"></span>
+					<span class="custom-control-description">Brand Center</span>
+				</label>
+			</p>
+			<p>
+				<label class="display-inline-block custom-control custom-checkbox">
+					<input type="checkbox" name="navbar-static-top" id="navbar-static-top" class="custom-control-input">
+					<span class="c-indicator bg-primary custom-control-indicator"></span>
+					<span class="custom-control-description">Static Top</span>
+				</label>
+			</p>
+		</div>
+	</div>
+	<hr>
+	<h5 class="mt-1">Navigation Color Options</h5>
+	<ul class="nav nav-tabs nav-underline nav-justified color-options">
+		<li class="nav-item">
+			<a class="nav-link nav-semi-light active" id="color-opt-1" data-toggle="tab" aria-controls="clrOpt1" href="#clrOpt1" aria-expanded="false">Semi Light</a>
+		</li>
+		<li class="nav-item">
+			<a class="nav-link nav-semi-dark" id="color-opt-2" data-toggle="tab" aria-controls="clrOpt2" href="#clrOpt2" aria-expanded="false">Semi Dark</a>
+		</li>
+		<li class="nav-item">
+			<a class="nav-link nav-dark" id="color-opt-3" data-toggle="tab" aria-controls="clrOpt3" href="#clrOpt3" aria-expanded="false">Dark</a>
+		</li>
+		<li class="nav-item">
+			<a class="nav-link nav-light" id="color-opt-4" data-toggle="tab" aria-controls="clrOpt4" href="#clrOpt4" aria-expanded="true">Light</a>
+		</li>
+	</ul>
+	<div class="tab-content px-1 pt-1">
+		<div role="tabpanel" class="tab-pane active" id="clrOpt1" aria-expanded="true" aria-labelledby="color-opt-1">
+			<div class="row">
+				<div class="col-xs-6">
+					<h6>Solid</h6>
+					<p>
+						<label class="display-inline-block custom-control custom-radio">
+							<input type="radio" name="nav-slight-clr" class="custom-control-input" data-bg="bg-blue-grey">
+							<span class="bg-default custom-control-indicator"></span>
+							<span class="custom-control-description">Default</span>
+						</label>
+					</p>
+					<p>
+						<label class="display-inline-block custom-control custom-radio">
+							<input type="radio" name="nav-slight-clr" class="custom-control-input" data-bg="bg-primary">
+							<span class="bg-primary custom-control-indicator"></span>
+							<span class="custom-control-description">Primary</span>
+						</label>
+					</p>
+					<p>
+						<label class="display-inline-block custom-control custom-radio">
+							<input type="radio" name="nav-slight-clr" class="custom-control-input" data-bg="bg-danger">
+							<span class="bg-danger custom-control-indicator"></span>
+							<span class="custom-control-description">Danger</span>
+						</label>
+					</p>
+					<p>
+						<label class="display-inline-block custom-control custom-radio">
+							<input type="radio" name="nav-slight-clr" class="custom-control-input" data-bg="bg-success">
+							<span class="bg-success custom-control-indicator"></span>
+							<span class="custom-control-description">Success</span>
+						</label>
+					</p>
+					<p>
+						<label class="display-inline-block custom-control custom-radio">
+							<input type="radio" name="nav-slight-clr" class="custom-control-input" data-bg="bg-blue">
+							<span class="bg-blue custom-control-indicator"></span>
+							<span class="custom-control-description">Blue</span>
+						</label>
+					</p>
+					<p>
+						<label class="display-inline-block custom-control custom-radio">
+							<input type="radio" name="nav-slight-clr" class="custom-control-input" data-bg="bg-cyan">
+							<span class="bg-cyan custom-control-indicator"></span>
+							<span class="custom-control-description">Cyan</span>
+						</label>
+					</p>
+					<p>
+						<label class="display-inline-block custom-control custom-radio">
+							<input type="radio" name="nav-slight-clr" class="custom-control-input" data-bg="bg-pink">
+							<span class="bg-pink custom-control-indicator"></span>
+							<span class="custom-control-description">Pink</span>
+						</label>
+					</p>
+				</div>
+				<div class="col-xs-6">
+					<h6>Gradient</h6>
+					<p>
+						<label class="display-inline-block custom-control custom-radio">
+							<input type="radio" name="nav-slight-clr" checked class="custom-control-input default" data-bg="bg-gradient-x-grey-blue">
+							<span class="bg-default custom-control-indicator"></span>
+							<span class="custom-control-description">Default</span>
+						</label>
+					</p>
+					<p>
+						<label class="display-inline-block custom-control custom-radio">
+							<input type="radio" name="nav-slight-clr" class="custom-control-input" data-bg="bg-gradient-x-primary">
+							<span class="bg-primary custom-control-indicator"></span>
+							<span class="custom-control-description">Primary</span>
+						</label>
+					</p>
+					<p>
+						<label class="display-inline-block custom-control custom-radio">
+							<input type="radio" name="nav-slight-clr" class="custom-control-input" data-bg="bg-gradient-x-danger">
+							<span class="bg-danger custom-control-indicator"></span>
+							<span class="custom-control-description">Danger</span>
+						</label>
+					</p>
+					<p>
+						<label class="display-inline-block custom-control custom-radio">
+							<input type="radio" name="nav-slight-clr" class="custom-control-input" data-bg="bg-gradient-x-success">
+							<span class="bg-success custom-control-indicator"></span>
+							<span class="custom-control-description">Success</span>
+						</label>
+					</p>
+					<p>
+						<label class="display-inline-block custom-control custom-radio">
+							<input type="radio" name="nav-slight-clr" class="custom-control-input" data-bg="bg-gradient-x-blue">
+							<span class="bg-blue custom-control-indicator"></span>
+							<span class="custom-control-description">Blue</span>
+						</label>
+					</p>
+					<p>
+						<label class="display-inline-block custom-control custom-radio">
+							<input type="radio" name="nav-slight-clr" class="custom-control-input" data-bg="bg-gradient-x-cyan">
+							<span class="bg-cyan custom-control-indicator"></span>
+							<span class="custom-control-description">Cyan</span>
+						</label>
+					</p>
+					<p>
+						<label class="display-inline-block custom-control custom-radio">
+							<input type="radio" name="nav-slight-clr" class="custom-control-input" data-bg="bg-gradient-x-pink">
+							<span class="bg-pink custom-control-indicator"></span>
+							<span class="custom-control-description">Pink</span>
+						</label>
+					</p>
+				</div>
+			</div>
+		</div>
+		<div class="tab-pane" id="clrOpt2" aria-labelledby="color-opt-2">
+			<p>
+				<label class="display-inline-block custom-control custom-radio">
+					<input type="radio" name="nav-sdark-clr" checked class="custom-control-input default" data-bg="bg-default">
+					<span class="bg-default custom-control-indicator"></span>
+					<span class="custom-control-description">Default</span>
+				</label>
+			</p>
+			<p>
+				<label class="display-inline-block custom-control custom-radio">
+					<input type="radio" name="nav-sdark-clr" class="custom-control-input" data-bg="bg-primary">
+					<span class="bg-primary custom-control-indicator"></span>
+					<span class="custom-control-description">Primary</span>
+				</label>
+			</p>
+			<p>
+				<label class="display-inline-block custom-control custom-radio">
+					<input type="radio" name="nav-sdark-clr" class="custom-control-input" data-bg="bg-danger">
+					<span class="bg-danger custom-control-indicator"></span>
+					<span class="custom-control-description">Danger</span>
+				</label>
+			</p>
+			<p>
+				<label class="display-inline-block custom-control custom-radio">
+					<input type="radio" name="nav-sdark-clr" class="custom-control-input" data-bg="bg-success">
+					<span class="bg-success custom-control-indicator"></span>
+					<span class="custom-control-description">Success</span>
+				</label>
+			</p>
+			<p>
+				<label class="display-inline-block custom-control custom-radio">
+					<input type="radio" name="nav-sdark-clr" class="custom-control-input" data-bg="bg-blue">
+					<span class="bg-blue custom-control-indicator"></span>
+					<span class="custom-control-description">Blue</span>
+				</label>
+			</p>
+			<p>
+				<label class="display-inline-block custom-control custom-radio">
+					<input type="radio" name="nav-sdark-clr" class="custom-control-input" data-bg="bg-cyan">
+					<span class="bg-cyan custom-control-indicator"></span>
+					<span class="custom-control-description">Cyan</span>
+				</label>
+			</p>
+			<p>
+				<label class="display-inline-block custom-control custom-radio">
+					<input type="radio" name="nav-sdark-clr" class="custom-control-input" data-bg="bg-pink">
+					<span class="bg-pink custom-control-indicator"></span>
+					<span class="custom-control-description">Pink</span>
+				</label>
+			</p>
+		</div>
+		<div class="tab-pane" id="clrOpt3" aria-labelledby="color-opt-3">
+			<div class="row">
+				<div class="col-xs-6">
+					<h3>Solid</h3>
+					<p>
+						<label class="display-inline-block custom-control custom-radio">
+							<input type="radio" name="nav-dark-clr" checked class="custom-control-input default" data-bg="bg-blue-grey">
+							<span class="bg-default custom-control-indicator"></span>
+							<span class="custom-control-description">Default</span>
+						</label>
+					</p>
+					<p>
+						<label class="display-inline-block custom-control custom-radio">
+							<input type="radio" name="nav-dark-clr" class="custom-control-input" data-bg="bg-primary">
+							<span class="bg-primary custom-control-indicator"></span>
+							<span class="custom-control-description">Primary</span>
+						</label>
+					</p>
+					<p>
+						<label class="display-inline-block custom-control custom-radio">
+							<input type="radio" name="nav-dark-clr" class="custom-control-input" data-bg="bg-danger">
+							<span class="bg-danger custom-control-indicator"></span>
+							<span class="custom-control-description">Danger</span>
+						</label>
+					</p>
+					<p>
+						<label class="display-inline-block custom-control custom-radio">
+							<input type="radio" name="nav-dark-clr" class="custom-control-input" data-bg="bg-success">
+							<span class="bg-success custom-control-indicator"></span>
+							<span class="custom-control-description">Success</span>
+						</label>
+					</p>
+					<p>
+						<label class="display-inline-block custom-control custom-radio">
+							<input type="radio" name="nav-dark-clr" class="custom-control-input" data-bg="bg-blue">
+							<span class="bg-blue custom-control-indicator"></span>
+							<span class="custom-control-description">Blue</span>
+						</label>
+					</p>
+					<p>
+						<label class="display-inline-block custom-control custom-radio">
+							<input type="radio" name="nav-dark-clr" class="custom-control-input" data-bg="bg-cyan">
+							<span class="bg-cyan custom-control-indicator"></span>
+							<span class="custom-control-description">Cyan</span>
+						</label>
+					</p>
+					<p>
+						<label class="display-inline-block custom-control custom-radio">
+							<input type="radio" name="nav-dark-clr" class="custom-control-input" data-bg="bg-pink">
+							<span class="bg-pink custom-control-indicator"></span>
+							<span class="custom-control-description">Pink</span>
+						</label>
+					</p>
+				</div>
+
+				<div class="col-xs-6">
+					<h3>Gradient</h3>
+					<p>
+						<label class="display-inline-block custom-control custom-radio">
+							<input type="radio" name="nav-dark-clr" class="custom-control-input" data-bg="bg-gradient-x-grey-blue">
+							<span class="bg-default custom-control-indicator"></span>
+							<span class="custom-control-description">Default</span>
+						</label>
+					</p>
+					<p>
+						<label class="display-inline-block custom-control custom-radio">
+							<input type="radio" name="nav-dark-clr" class="custom-control-input" data-bg="bg-gradient-x-primary">
+							<span class="bg-primary custom-control-indicator"></span>
+							<span class="custom-control-description">Primary</span>
+						</label>
+					</p>
+					<p>
+						<label class="display-inline-block custom-control custom-radio">
+							<input type="radio" name="nav-dark-clr" class="custom-control-input" data-bg="bg-gradient-x-danger">
+							<span class="bg-danger custom-control-indicator"></span>
+							<span class="custom-control-description">Danger</span>
+						</label>
+					</p>
+					<p>
+						<label class="display-inline-block custom-control custom-radio">
+							<input type="radio" name="nav-dark-clr" class="custom-control-input" data-bg="bg-gradient-x-success">
+							<span class="bg-success custom-control-indicator"></span>
+							<span class="custom-control-description">Success</span>
+						</label>
+					</p>
+					<p>
+						<label class="display-inline-block custom-control custom-radio">
+							<input type="radio" name="nav-dark-clr" class="custom-control-input" data-bg="bg-gradient-x-blue">
+							<span class="bg-blue custom-control-indicator"></span>
+							<span class="custom-control-description">Blue</span>
+						</label>
+					</p>
+					<p>
+						<label class="display-inline-block custom-control custom-radio">
+							<input type="radio" name="nav-dark-clr" class="custom-control-input" data-bg="bg-gradient-x-cyan">
+							<span class="bg-cyan custom-control-indicator"></span>
+							<span class="custom-control-description">Cyan</span>
+						</label>
+					</p>
+					<p>
+						<label class="display-inline-block custom-control custom-radio">
+							<input type="radio" name="nav-dark-clr" class="custom-control-input" data-bg="bg-gradient-x-pink">
+							<span class="bg-pink custom-control-indicator"></span>
+							<span class="custom-control-description">Pink</span>
+						</label>
+					</p>
+				</div>
+			</div>
+		</div>
+		<div class="tab-pane" id="clrOpt4" aria-labelledby="color-opt-4">
+			<p>
+				<label class="display-inline-block custom-control custom-radio">
+					<input type="radio" name="nav-light-clr" checked class="custom-control-input default" data-bg="bg-blue-grey bg-lighten-4">
+					<span class="bg-default custom-control-indicator"></span>
+					<span class="custom-control-description">Default</span>
+				</label>
+			</p>
+			<p>
+				<label class="display-inline-block custom-control custom-radio">
+					<input type="radio" name="nav-light-clr" class="custom-control-input" data-bg="bg-primary bg-lighten-4">
+					<span class="bg-primary custom-control-indicator"></span>
+					<span class="custom-control-description">Primary</span>
+				</label>
+			</p>
+			<p>
+				<label class="display-inline-block custom-control custom-radio">
+					<input type="radio" name="nav-light-clr" class="custom-control-input" data-bg="bg-danger bg-lighten-4">
+					<span class="bg-danger custom-control-indicator"></span>
+					<span class="custom-control-description">Danger</span>
+				</label>
+			</p>
+			<p>
+				<label class="display-inline-block custom-control custom-radio">
+					<input type="radio" name="nav-light-clr" class="custom-control-input" data-bg="bg-success bg-lighten-4">
+					<span class="bg-success custom-control-indicator"></span>
+					<span class="custom-control-description">Success</span>
+				</label>
+			</p>
+			<p>
+				<label class="display-inline-block custom-control custom-radio">
+					<input type="radio" name="nav-light-clr" class="custom-control-input" data-bg="bg-blue bg-lighten-4">
+					<span class="bg-blue custom-control-indicator"></span>
+					<span class="custom-control-description">Blue</span>
+				</label>
+			</p>
+			<p>
+				<label class="display-inline-block custom-control custom-radio">
+					<input type="radio" name="nav-light-clr" class="custom-control-input" data-bg="bg-cyan bg-lighten-4">
+					<span class="bg-cyan custom-control-indicator"></span>
+					<span class="custom-control-description">Cyan</span>
+				</label>
+			</p>
+			<p>
+				<label class="display-inline-block custom-control custom-radio">
+					<input type="radio" name="nav-light-clr" class="custom-control-input" data-bg="bg-pink bg-lighten-4">
+					<span class="bg-pink custom-control-indicator"></span>
+					<span class="custom-control-description">Pink</span>
+				</label>
+			</p>
+		</div>
+	</div>
+	<hr>
+	<h5 class="mt-1 mb-1">Menu Color Options</h5>
+	<div class="form-group">
+		<!-- Outline Button group -->
+		<div class="btn-group customizer-sidebar-options" role="group" aria-label="Basic example">
+			<button type="button" class="btn btn-outline-primary" data-sidebar="menu-light">Light Menu</button>
+			<button type="button" class="btn btn-outline-primary" data-sidebar="menu-dark">Dark Menu</button>
+		</div>
+	</div>
+</div>
+    </div>
+
+    <footer class="footer footer-static footer-light navbar-shadow">
+      <p class="clearfix blue-grey lighten-2 text-sm-center mb-0 px-2"><span class="float-md-left d-xs-block d-md-inline-block">Copyright  &copy; 2017 <a href="https://themeforest.net/user/pixinvent/portfolio?ref=pixinvent" target="_blank" class="text-bold-800 grey darken-2">PIXINVENT </a>, All rights reserved. </span><span class="float-md-right d-xs-block d-md-inline-block hidden-md-down">Hand-crafted & Made with <i class="ft-heart pink"></i></span></p>
+    </footer>
+
+    <!-- BEGIN VENDOR JS-->
+    <script src="../../../app-assets/vendors/js/vendors.min.js" type="text/javascript"></script>
+    <!-- BEGIN VENDOR JS-->
+    <!-- BEGIN PAGE VENDOR JS-->
+    <script type="text/javascript" src="../../../app-assets/vendors/js/ui/jquery.sticky.js"></script>
+    <script type="text/javascript" src="../../../app-assets/vendors/js/charts/jquery.sparkline.min.js"></script>
+    <script src="../../../app-assets/vendors/js/tables/jquery.dataTables.min.js" type="text/javascript"></script>
+    <script src="../../../app-assets/vendors/js/tables/datatable/dataTables.bootstrap4.min.js" type="text/javascript"></script>
+    <script src="../../../app-assets/vendors/js/tables/datatable/dataTables.buttons.min.js" type="text/javascript"></script>
+    <script src="../../../app-assets/vendors/js/tables/datatable/buttons.bootstrap4.min.js" type="text/javascript"></script>
+    <script src="../../../app-assets/vendors/js/tables/datatable/dataTables.select.min.js" type="text/javascript"></script>
+    <!-- END PAGE VENDOR JS-->
+    <!-- BEGIN STACK JS-->
+    <script src="../../../app-assets/js/core/app-menu.min.js" type="text/javascript"></script>
+    <script src="../../../app-assets/js/core/app.min.js" type="text/javascript"></script>
+    <script src="../../../app-assets/js/scripts/customizer.min.js" type="text/javascript"></script>
+    <!-- END STACK JS-->
+    <!-- BEGIN PAGE LEVEL JS-->
+    <script type="text/javascript" src="../../../app-assets/js/scripts/ui/breadcrumbs-with-stats.min.js"></script>
+    <script src="../../../app-assets/js/scripts/tables/datatables-extensions/datatable-button/datatable-extensions-api.js" type="text/javascript"></script>
+    <!-- END PAGE LEVEL JS-->
+  </body>
+</html>
