@@ -25,7 +25,7 @@ class UsuarioMixin:
 class IniciarSesion(UsuarioMixin, TemplateView):
 
     """Vista para iniciar sesión"""
-    template_name = "user-login.html"
+    template_name = "usuarios/login.html"
     model = User
     form_class = UserLoginForm
     object = None
@@ -95,7 +95,7 @@ class Perfil(UsuarioMixin, TemplateView):
 class Registrar(UsuarioMixin, TemplateView):
 
     """Vista para registrar usuario"""
-    template_name = "user-register.html"
+    template_name = "usuarios/register.html"
     model = User
     form_class = UserForm
     object = None
