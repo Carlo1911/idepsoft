@@ -21,19 +21,9 @@
             </div>
             <p class="card-subtitle line-on-side text-muted text-xs-center font-small-3 mx-2 my-1"><span>OR Using Email</span></p>
             <div class="card-block">
-                <form class="form-horizontal" action="index.html" novalidate>
-                    <fieldset class="form-group position-relative has-icon-left">
-                        <input type="text" class="form-control" id="user-name" placeholder="User Name">
-                        <div class="form-control-position">
-                            <i class="ft-user"></i>
-                        </div>
-                    </fieldset>
-                    <fieldset class="form-group position-relative has-icon-left">
-                        <input type="email" class="form-control" id="user-email" placeholder="Your Email Address" required>
-                        <div class="form-control-position">
-                            <i class="ft-mail"></i>
-                        </div>
-                    </fieldset>
+                <form class="form-horizontal" role="form" method="post" novalidate>
+                    {% include 'partials/form_input.html' with field=usuario.email addon='fs-mail' %}  
+                    
                     <fieldset class="form-group position-relative has-icon-left">
                         <input type="password" class="form-control" id="user-password" placeholder="Enter Password" required>
                         <div class="form-control-position">

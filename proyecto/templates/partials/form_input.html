@@ -1,0 +1,11 @@
+{% load form_filter %}
+<fieldset class="form-group position-relative has-icon-left">
+    {% if without_class == True %}
+    {{ field }}
+    {% else %}
+    {{ field|add_class:'form-control' }}
+    {% endif %}
+    <div class="form-control-position">
+        <i class="{{ icon }}"></i>
+    </div>
+</fieldset>
