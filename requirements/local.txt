@@ -1,5 +1,4 @@
 -r base.txt
-django-debug-toolbar
 django-extensions
 django-session-security
 Fabric

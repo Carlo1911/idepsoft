@@ -14,7 +14,6 @@ reportlab
 requests
 simplejson
 sqlparse
-wsgiref
 xlsxwriter
 django-dotenv
 amqp
@@ -52,7 +51,6 @@ python-dateutil
 pytz
 simplegeneric
 six
-suds
 traitlets
 Fabric
 Werkzeug
