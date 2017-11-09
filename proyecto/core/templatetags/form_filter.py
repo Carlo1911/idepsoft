@@ -9,8 +9,9 @@ class_re = re.compile(r'(?<=class=["\'])(.*)(?=["\'])')
 
 @register.filter(name='add_class')
 def add_class(value, css_class):
-    string = unicode(value)
+    string = str(value)
     match = class_re.search(string)
+    print("string {} - clase {}".format(string, match))
     if match:
         m = re.search(
             r'^%s$|^%s\s|\s%s\s|\s%s$' % (

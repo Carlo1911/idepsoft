@@ -25,10 +25,11 @@ class UserForm(UserCreationForm):
         'password_mismatch': _("The two password fields didn't match."),
     }
     password1 = forms.CharField(label=_("Password"),
-                                widget=forms.PasswordInput)
+                                widget=forms.PasswordInput(attrs={'placeholder':'Enter Password'}))
     password2 = forms.CharField(label=_("Password confirmation"),
-                                widget=forms.PasswordInput,
+                                widget=forms.PasswordInput(attrs={'placeholder':'Enter Password Again'}),
                                 help_text=_("Enter the same password as above, for verification."))
+    email = forms.CharField(widget=forms.TextInput(attrs={'placeholder': 'Your Email Address'}))
 
     def save(self, commit=True):
         user = super(UserForm, self).save(commit=False)
